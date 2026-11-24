@@ -1,0 +1,590 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "deckback.scene/1",
+  "title": "deckback Scene v1",
+  "description": "A converted deck (SceneDeck), as packages/core/src/scene/types.ts defines it. Coordinates are slide-frame pt (docs/decisions/0002-inventory-contract.md §1). Every object is closed (additionalProperties false) and lists every field as required; a map from ids to definitions is open to its ids. #/definitions/SceneSlide validates one slide.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "source", "slides", "fonts", "media"],
+  "properties": {
+    "schema": { "const": "deckback.scene/1" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["producer", "creator", "tagged", "encrypted", "pageCount"],
+      "properties": {
+        "producer": { "$ref": "#/definitions/StringOrNull" },
+        "creator": { "$ref": "#/definitions/StringOrNull" },
+        "tagged": { "type": "boolean" },
+        "encrypted": { "type": "boolean" },
+        "pageCount": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "slides": { "type": "array", "items": { "$ref": "#/definitions/SceneSlide" } },
+    "fonts": { "type": "object", "additionalProperties": { "$ref": "#/definitions/FontInfo" } },
+    "media": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/definitions/Sha256" },
+      "additionalProperties": { "$ref": "#/definitions/MediaInfo" }
+    }
+  },
+  "definitions": {
+    "StringOrNull": { "anyOf": [{ "type": "null" }, { "type": "string" }] },
+    "IntegerOrNull": { "anyOf": [{ "type": "null" }, { "type": "integer" }] },
+    "Sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "Point": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+    "Box": {
+      "description": "[x0, y0, x1, y1], slide-frame pt.",
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "BoxOrNull": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/Box" }] },
+    "Matrix": {
+      "description": "[a, b, c, d, e, f]: x' = a x + c y + e, y' = b x + d y + f. A picture's carries the PDF's unit square (origin at the image's bottom left, y up) to the slide frame.",
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 6,
+      "maxItems": 6
+    },
+    "Rgb": {
+      "description": "sRGB, 0-255 integers.",
+      "type": "array",
+      "items": { "type": "integer", "minimum": 0, "maximum": 255 },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "RgbOrNull": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/Rgb" }] },
+    "Blend": {
+      "description": "A PDF blend mode, lower case, without hyphens (0002 §17).",
+      "enum": [
+        "normal",
+        "multiply",
+        "screen",
+        "overlay",
+        "darken",
+        "lighten",
+        "colordodge",
+        "colorburn",
+        "hardlight",
+        "softlight",
+        "difference",
+        "exclusion",
+        "hue",
+        "saturation",
+        "color",
+        "luminosity"
+      ]
+    },
+    "PathSeg": {
+      "description": "One path segment, points in the slide frame (0002 §14).",
+      "oneOf": [
+        {
+          "type": "array",
+          "items": [{ "const": "M" }, { "type": "number" }, { "type": "number" }],
+          "minItems": 3,
+          "additionalItems": false
+        },
+        {
+          "type": "array",
+          "items": [{ "const": "L" }, { "type": "number" }, { "type": "number" }],
+          "minItems": 3,
+          "additionalItems": false
+        },
+        {
+          "type": "array",
+          "items": [
+            { "const": "C" },
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" }
+          ],
+          "minItems": 7,
+          "additionalItems": false
+        },
+        { "type": "array", "items": [{ "const": "Z" }], "minItems": 1, "additionalItems": false }
+      ]
+    },
+    "Geom": { "type": "array", "items": { "$ref": "#/definitions/PathSeg" } },
+    "FillRule": { "enum": ["nonzero", "evenodd"] },
+    "ElementId": {
+      "description": "p<page+1>:z<opIndex>, and :<n> for each further element of the same op; a hotspot p<page+1>:a<n>.",
+      "type": "string",
+      "minLength": 1
+    },
+    "Provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["opIndex", "mcid", "struct"],
+      "properties": {
+        "opIndex": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+        "mcid": { "$ref": "#/definitions/IntegerOrNull" },
+        "struct": { "anyOf": [{ "type": "null" }, { "type": "array", "items": { "type": "string" } }] }
+      }
+    },
+    "ClipIds": {
+      "description": "Ids in the clips of the slide (or of the mask or tile cell that holds it), outermost first.",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "GroupRef": {
+      "description": "A transparency group; mask: the id of the soft mask it took, in the slide's masks, or null.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["alpha", "blend", "isolated", "knockout", "bbox", "mask"],
+      "properties": {
+        "alpha": { "type": "number" },
+        "blend": { "$ref": "#/definitions/Blend" },
+        "isolated": { "type": "boolean" },
+        "knockout": { "type": "boolean" },
+        "bbox": { "$ref": "#/definitions/BoxOrNull" },
+        "mask": { "$ref": "#/definitions/StringOrNull" }
+      }
+    },
+    "Groups": { "type": "array", "items": { "$ref": "#/definitions/GroupRef" } },
+    "Stop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["t", "rgb"],
+      "properties": { "t": { "type": "number" }, "rgb": { "$ref": "#/definitions/Rgb" } }
+    },
+    "Extend": { "type": "array", "items": { "type": "boolean" }, "minItems": 2, "maxItems": 2 },
+    "Fill": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "rgb", "alpha"],
+          "properties": {
+            "kind": { "const": "solid" },
+            "rgb": { "$ref": "#/definitions/Rgb" },
+            "alpha": { "type": "number" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "stops", "p0", "p1", "matrix", "extend", "alpha"],
+          "properties": {
+            "kind": { "const": "linear" },
+            "stops": { "type": "array", "items": { "$ref": "#/definitions/Stop" } },
+            "p0": { "$ref": "#/definitions/Point" },
+            "p1": { "$ref": "#/definitions/Point" },
+            "matrix": { "$ref": "#/definitions/Matrix" },
+            "extend": { "$ref": "#/definitions/Extend" },
+            "alpha": { "type": "number" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "stops", "p0", "r0", "p1", "r1", "matrix", "extend", "alpha"],
+          "properties": {
+            "kind": { "const": "radial" },
+            "stops": { "type": "array", "items": { "$ref": "#/definitions/Stop" } },
+            "p0": { "$ref": "#/definitions/Point" },
+            "r0": { "type": "number" },
+            "p1": { "$ref": "#/definitions/Point" },
+            "r1": { "type": "number" },
+            "matrix": { "$ref": "#/definitions/Matrix" },
+            "extend": { "$ref": "#/definitions/Extend" },
+            "alpha": { "type": "number" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "shading", "alpha", "mesh"],
+          "properties": {
+            "kind": { "const": "shading" },
+            "shading": { "enum": ["function", "mesh"] },
+            "alpha": { "type": "number" },
+            "mesh": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/ShadingMesh" }] }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "cell", "alpha"],
+          "properties": {
+            "kind": { "const": "tile" },
+            "cell": { "$ref": "#/definitions/TileCell" },
+            "alpha": { "type": "number" }
+          }
+        }
+      ]
+    },
+    "ShadingMesh": {
+      "description": "M5: the triangles pdf.js draws a function-based shading or a mesh with, Gouraud-shaded, in paint order (types.ts ShadingMesh).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "xy", "rgb", "triangles", "matrix", "bbox", "background"],
+      "properties": {
+        "type": { "enum": [1, 4, 5, 6, 7] },
+        "xy": { "type": "array", "items": { "type": "number" } },
+        "rgb": { "type": "array", "items": { "type": "integer", "minimum": 0, "maximum": 255 } },
+        "triangles": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+        "matrix": { "$ref": "#/definitions/Matrix" },
+        "bbox": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/Box" }] },
+        "background": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/Rgb" }] }
+      }
+    },
+    "FillOrNull": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/Fill" }] },
+    "LineStyle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["w", "cap", "join", "miter", "dash", "phase", "anisotropic", "paint"],
+      "properties": {
+        "w": { "type": "number" },
+        "cap": { "enum": ["butt", "round", "square"] },
+        "join": { "enum": ["miter", "round", "bevel"] },
+        "miter": { "type": "number" },
+        "dash": { "type": "array", "items": { "type": "number" } },
+        "phase": { "type": "number" },
+        "anisotropic": { "type": "boolean" },
+        "paint": { "$ref": "#/definitions/Fill" }
+      }
+    },
+    "Element": {
+      "oneOf": [
+        { "$ref": "#/definitions/ShapeEl" },
+        { "$ref": "#/definitions/TextLineEl" },
+        { "$ref": "#/definitions/PictureEl" },
+        { "$ref": "#/definitions/FallbackEl" },
+        { "$ref": "#/definitions/HotspotEl" }
+      ]
+    },
+    "Elements": { "type": "array", "items": { "$ref": "#/definitions/Element" } },
+    "ShapeEl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "provenance", "clip", "clipBox", "groups", "mask", "blend", "kind", "geom", "fillRule", "fill", "line", "bbox"],
+      "properties": {
+        "id": { "$ref": "#/definitions/ElementId" },
+        "provenance": { "$ref": "#/definitions/Provenance" },
+        "clip": { "$ref": "#/definitions/ClipIds" },
+        "clipBox": { "$ref": "#/definitions/Box" },
+        "groups": { "$ref": "#/definitions/Groups" },
+        "mask": { "$ref": "#/definitions/StringOrNull" },
+        "blend": { "$ref": "#/definitions/Blend" },
+        "kind": { "const": "shape" },
+        "geom": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/Geom" }] },
+        "fillRule": { "$ref": "#/definitions/FillRule" },
+        "fill": { "$ref": "#/definitions/FillOrNull" },
+        "line": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/LineStyle" }] },
+        "bbox": { "$ref": "#/definitions/Box" }
+      }
+    },
+    "TextRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "fontKey",
+        "sizePt",
+        "rgb",
+        "alpha",
+        "fillMode",
+        "stroke",
+        "fill",
+        "bold",
+        "italic",
+        "spcPt",
+        "hScale",
+        "skew",
+        "rise",
+        "glyphs"
+      ],
+      "properties": {
+        "text": { "type": "string" },
+        "fontKey": { "type": "string" },
+        "sizePt": { "type": "number" },
+        "rgb": { "$ref": "#/definitions/RgbOrNull" },
+        "alpha": { "type": "number" },
+        "fillMode": { "enum": ["fill", "stroke", "fillStroke", "noFill", "clip"] },
+        "stroke": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["rgb", "alpha", "wPt"],
+              "properties": {
+                "rgb": { "$ref": "#/definitions/Rgb" },
+                "alpha": { "type": "number" },
+                "wPt": { "type": "number" }
+              }
+            }
+          ]
+        },
+        "fill": { "$ref": "#/definitions/FillOrNull" },
+        "bold": { "type": "boolean" },
+        "italic": { "type": "boolean" },
+        "spcPt": { "type": "number" },
+        "hScale": { "type": "number" },
+        "skew": { "type": "number" },
+        "rise": { "type": "number" },
+        "glyphs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["u", "x", "y", "adv"],
+            "properties": {
+              "u": { "type": "string" },
+              "x": { "type": "number" },
+              "y": { "type": "number" },
+              "adv": { "type": "number" },
+              "sym": { "type": "string", "description": "M8: a symbol font's own character for the glyph, U+F000 + its code." }
+            }
+          }
+        }
+      }
+    },
+    "TextLineEl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "provenance", "clip", "clipBox", "groups", "mask", "blend", "kind", "runs", "baseline", "angleDeg", "wmode", "bboxPt"],
+      "properties": {
+        "id": { "$ref": "#/definitions/ElementId" },
+        "provenance": { "$ref": "#/definitions/Provenance" },
+        "clip": { "$ref": "#/definitions/ClipIds" },
+        "clipBox": { "$ref": "#/definitions/Box" },
+        "groups": { "$ref": "#/definitions/Groups" },
+        "mask": { "$ref": "#/definitions/StringOrNull" },
+        "blend": { "$ref": "#/definitions/Blend" },
+        "kind": { "const": "textline" },
+        "runs": { "type": "array", "items": { "$ref": "#/definitions/TextRun" } },
+        "baseline": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y"],
+          "properties": { "x": { "type": "number" }, "y": { "type": "number" } }
+        },
+        "angleDeg": { "type": "number" },
+        "wmode": { "enum": [0, 1] },
+        "bboxPt": { "$ref": "#/definitions/Box" }
+      }
+    },
+    "PictureEl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "provenance", "clip", "clipBox", "groups", "mask", "blend", "kind", "mediaHash", "matrix", "xfrm", "skewed", "alpha", "stencil", "px"],
+      "properties": {
+        "id": { "$ref": "#/definitions/ElementId" },
+        "provenance": { "$ref": "#/definitions/Provenance" },
+        "clip": { "$ref": "#/definitions/ClipIds" },
+        "clipBox": { "$ref": "#/definitions/Box" },
+        "groups": { "$ref": "#/definitions/Groups" },
+        "mask": { "$ref": "#/definitions/StringOrNull" },
+        "blend": { "$ref": "#/definitions/Blend" },
+        "kind": { "const": "picture" },
+        "mediaHash": { "$ref": "#/definitions/Sha256" },
+        "matrix": { "$ref": "#/definitions/Matrix" },
+        "xfrm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y", "w", "h", "rotDeg", "flipH", "flipV"],
+          "properties": {
+            "x": { "type": "number" },
+            "y": { "type": "number" },
+            "w": { "type": "number" },
+            "h": { "type": "number" },
+            "rotDeg": { "type": "number" },
+            "flipH": { "type": "boolean" },
+            "flipV": { "type": "boolean" }
+          }
+        },
+        "skewed": { "type": "boolean" },
+        "alpha": { "type": "number" },
+        "stencil": { "$ref": "#/definitions/RgbOrNull" },
+        "px": {
+          "description": "The image's own width and height in pixels; null when pdf.js gave none.",
+          "anyOf": [
+            { "type": "null" },
+            { "type": "array", "items": { "type": "integer", "minimum": 1 }, "minItems": 2, "maxItems": 2 }
+          ]
+        }
+      }
+    },
+    "FallbackEl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "provenance", "clip", "clipBox", "groups", "mask", "blend", "kind", "reason", "coveredOps", "raster", "bbox"],
+      "properties": {
+        "id": { "$ref": "#/definitions/ElementId" },
+        "provenance": { "$ref": "#/definitions/Provenance" },
+        "clip": { "$ref": "#/definitions/ClipIds" },
+        "clipBox": { "$ref": "#/definitions/Box" },
+        "groups": { "$ref": "#/definitions/Groups" },
+        "mask": { "$ref": "#/definitions/StringOrNull" },
+        "blend": { "$ref": "#/definitions/Blend" },
+        "kind": { "const": "fallback" },
+        "reason": { "type": "string" },
+        "coveredOps": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+        "raster": { "description": "Always null in Scene v1; the raster arrives in M5.", "type": "null" },
+        "bbox": { "$ref": "#/definitions/BoxOrNull" }
+      }
+    },
+    "HotspotEl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "provenance", "clip", "clipBox", "groups", "mask", "blend", "kind", "rect", "link"],
+      "properties": {
+        "id": { "$ref": "#/definitions/ElementId" },
+        "provenance": { "$ref": "#/definitions/Provenance" },
+        "clip": { "$ref": "#/definitions/ClipIds" },
+        "clipBox": { "$ref": "#/definitions/Box" },
+        "groups": { "$ref": "#/definitions/Groups" },
+        "mask": { "$ref": "#/definitions/StringOrNull" },
+        "blend": { "$ref": "#/definitions/Blend" },
+        "kind": { "const": "hotspot" },
+        "rect": { "$ref": "#/definitions/Box" },
+        "link": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["url", "dest"],
+          "properties": { "url": { "$ref": "#/definitions/StringOrNull" }, "dest": { "$ref": "#/definitions/StringOrNull" } }
+        }
+      }
+    },
+    "ClipDef": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "geom", "rule", "bbox"],
+          "properties": {
+            "kind": { "const": "path" },
+            "geom": { "$ref": "#/definitions/Geom" },
+            "rule": { "$ref": "#/definitions/FillRule" },
+            "bbox": { "$ref": "#/definitions/Box" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "bbox"],
+          "properties": { "kind": { "const": "box" }, "bbox": { "$ref": "#/definitions/Box" } }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "bbox", "approx"],
+          "properties": {
+            "kind": { "const": "text" },
+            "bbox": { "$ref": "#/definitions/Box" },
+            "approx": { "const": true }
+          }
+        }
+      ]
+    },
+    "Clips": { "type": "object", "additionalProperties": { "$ref": "#/definitions/ClipDef" } },
+    "MaskDef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subtype", "backdrop", "elements", "clips"],
+      "properties": {
+        "subtype": { "enum": ["alpha", "luminosity"] },
+        "backdrop": { "$ref": "#/definitions/RgbOrNull" },
+        "elements": { "$ref": "#/definitions/Elements" },
+        "clips": { "$ref": "#/definitions/Clips" }
+      }
+    },
+    "TileCell": {
+      "description": "In cell space; matrix maps cell space to the frame of the element it fills (the slide frame, or an outer cell's space).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bbox", "xStep", "yStep", "matrix", "paintType", "elements", "clips"],
+      "properties": {
+        "bbox": { "$ref": "#/definitions/Box" },
+        "xStep": { "type": "number" },
+        "yStep": { "type": "number" },
+        "matrix": { "$ref": "#/definitions/Matrix" },
+        "paintType": { "enum": [1, 2] },
+        "elements": { "$ref": "#/definitions/Elements" },
+        "clips": { "$ref": "#/definitions/Clips" }
+      }
+    },
+    "FontInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "baseFont", "latinName", "eaName", "bold", "italic", "embedded", "fsType", "isVariable", "type3", "metrics"],
+      "properties": {
+        "key": { "type": "string" },
+        "baseFont": { "type": "string" },
+        "latinName": { "$ref": "#/definitions/StringOrNull" },
+        "eaName": { "$ref": "#/definitions/StringOrNull" },
+        "bold": { "type": "boolean" },
+        "italic": { "type": "boolean" },
+        "embedded": { "type": "boolean" },
+        "fsType": { "$ref": "#/definitions/IntegerOrNull" },
+        "isVariable": { "type": "boolean" },
+        "type3": { "type": "boolean" },
+        "metrics": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["upm", "hheaAsc", "hheaDesc", "hheaLineGap", "winAsc", "winDesc", "typoAsc", "typoDesc", "typoLineGap", "fsSelection"],
+              "properties": {
+                "upm": { "type": "number" },
+                "hheaAsc": { "type": "number" },
+                "hheaDesc": { "type": "number" },
+                "hheaLineGap": { "type": "number" },
+                "winAsc": { "type": "number" },
+                "winDesc": { "type": "number" },
+                "typoAsc": { "type": "number" },
+                "typoDesc": { "type": "number" },
+                "typoLineGap": { "type": "number" },
+                "fsSelection": { "type": "integer", "minimum": 0, "maximum": 65535 }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "MediaInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hash", "mime", "widthPx", "heightPx", "byteLength", "passthrough"],
+      "properties": {
+        "hash": { "$ref": "#/definitions/Sha256" },
+        "mime": { "enum": ["image/jpeg", "image/png"] },
+        "widthPx": { "type": "integer", "minimum": 1 },
+        "heightPx": { "type": "integer", "minimum": 1 },
+        "byteLength": { "type": "integer", "minimum": 0 },
+        "passthrough": { "type": "boolean" }
+      }
+    },
+    "Note": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["opIndex", "op", "detail"],
+      "properties": {
+        "opIndex": { "type": "integer", "minimum": 0 },
+        "op": { "type": "string" },
+        "detail": { "type": "string" }
+      }
+    },
+    "SceneSlide": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["index", "sizePt", "elements", "clips", "masks", "notes", "failed"],
+      "properties": {
+        "index": { "type": "integer", "minimum": 0 },
+        "sizePt": { "$ref": "#/definitions/Point" },
+        "elements": { "$ref": "#/definitions/Elements" },
+        "clips": { "$ref": "#/definitions/Clips" },
+        "masks": { "type": "object", "additionalProperties": { "$ref": "#/definitions/MaskDef" } },
+        "notes": { "type": "array", "items": { "$ref": "#/definitions/Note" } },
+        "failed": { "$ref": "#/definitions/StringOrNull" }
+      }
+    }
+  }
+}

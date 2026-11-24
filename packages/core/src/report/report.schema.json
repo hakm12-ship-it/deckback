@@ -1,0 +1,565 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "deckback.report/1",
+  "title": "deckback conversion report v1",
+  "description": "What convert() did to a deck (Report), as packages/core/src/report/types.ts defines it. Every object is closed (additionalProperties false) and lists every field as required, but for fonts[].written (M6 Task 3), fonts[].pptxEmbedding, which only a conversion with embedFonts writes, and fonts[].mappedTo, which only one with fontMap does. Text is fixed words, op names and element ids, but for source (the document information) and fonts (the fonts' names). #/definitions/SlideReport validates one slide's report.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "source",
+    "slideSizePt",
+    "slides",
+    "fonts",
+    "totals",
+    "budgets"
+  ],
+  "properties": {
+    "schema": {
+      "const": "deckback.report/1"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "producer",
+        "creator",
+        "tagged",
+        "encrypted",
+        "pageCount"
+      ],
+      "properties": {
+        "producer": {
+          "$ref": "#/definitions/StringOrNull"
+        },
+        "creator": {
+          "$ref": "#/definitions/StringOrNull"
+        },
+        "tagged": {
+          "type": "boolean"
+        },
+        "encrypted": {
+          "type": "boolean"
+        },
+        "pageCount": {
+          "$ref": "#/definitions/Count"
+        }
+      }
+    },
+    "slideSizePt": {
+      "description": "The slide size written, pt: within PowerPoint's 72 to 4032 pt a side.",
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 72,
+        "maximum": 4032
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "slides": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/SlideReport"
+      }
+    },
+    "fonts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "latin",
+          "ea",
+          "embedded",
+          "type3"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "pattern": "^f[1-9][0-9]*$"
+          },
+          "latin": {
+            "$ref": "#/definitions/StringOrNull"
+          },
+          "ea": {
+            "$ref": "#/definitions/StringOrNull"
+          },
+          "embedded": {
+            "type": "boolean"
+          },
+          "type3": {
+            "type": "boolean"
+          },
+          "written": {
+            "description": "The typefaces the font's text is written with (before any fontMap): the keys a fontMap is looked up by. Each is present when the font has that typeface.",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "latin": { "type": "string", "minLength": 1 },
+              "ea": { "type": "string", "minLength": 1 }
+            }
+          },
+          "mappedTo": {
+            "description": "With fontMap only (M6), for a font whose typeface it changed: the family a:latin is written as, or, when only a:ea changed, that one.",
+            "type": "string",
+            "minLength": 1
+          },
+          "pptxEmbedding": {
+            "description": "With embedFonts only (M4 Task 5): embedded, the PPTX carries the font as ppt/fonts/font<n>.fntdata, or why not (FontSkip, packages/core/src/fonts/embed.ts).",
+            "enum": [
+              "embedded",
+              "not-in-pdf",
+              "type3",
+              "unreadable",
+              "not-truetype",
+              "incomplete",
+              "fsType-restricted",
+              "fsType-preview-print",
+              "fsType-bitmap-only",
+              "fsType-no-subsetting",
+              "same-face",
+              "unused"
+            ]
+          }
+        }
+      }
+    },
+    "totals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "textBoxes",
+        "freeforms",
+        "rects",
+        "lines",
+        "pictures",
+        "gradients",
+        "hotspots",
+        "runLinks",
+        "fallbacks",
+        "approximations",
+        "droppedLinks"
+      ],
+      "properties": {
+        "textBoxes": {
+          "description": "Text boxes written: one per box of text assembly (M4 Task 1): a line of text runs, or on a tagged page the lines of one Textbox or P, a paragraph each.",
+          "$ref": "#/definitions/Count"
+        },
+        "freeforms": {
+          "$ref": "#/definitions/Count"
+        },
+        "rects": {
+          "$ref": "#/definitions/Count"
+        },
+        "lines": {
+          "$ref": "#/definitions/Count"
+        },
+        "pictures": {
+          "$ref": "#/definitions/Count"
+        },
+        "gradients": {
+          "$ref": "#/definitions/Count"
+        },
+        "hotspots": {
+          "$ref": "#/definitions/Count"
+        },
+        "runLinks": {
+          "$ref": "#/definitions/Count"
+        },
+        "fallbacks": {
+          "$ref": "#/definitions/Count"
+        },
+        "approximations": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "nonzero-approx",
+            "clip-dropped",
+            "clip-approx",
+            "group-alpha-folded",
+            "mask-dropped",
+            "blend-dropped",
+            "tile-unsupported",
+            "gradient-extend",
+            "radial-offset",
+            "gradient-alpha-mix",
+            "skewed-picture",
+            "anisotropic-line",
+            "dash-phase",
+            "hscale",
+            "vertical-text",
+            "text-skew",
+            "text-pattern-fill",
+            "type3-text",
+            "text-drift-split"
+          ],
+          "properties": {
+            "nonzero-approx": {
+              "$ref": "#/definitions/Count"
+            },
+            "clip-dropped": {
+              "$ref": "#/definitions/Count"
+            },
+            "clip-approx": {
+              "$ref": "#/definitions/Count"
+            },
+            "group-alpha-folded": {
+              "$ref": "#/definitions/Count"
+            },
+            "mask-dropped": {
+              "$ref": "#/definitions/Count"
+            },
+            "blend-dropped": {
+              "$ref": "#/definitions/Count"
+            },
+            "tile-unsupported": {
+              "$ref": "#/definitions/Count"
+            },
+            "gradient-extend": {
+              "$ref": "#/definitions/Count"
+            },
+            "radial-offset": {
+              "$ref": "#/definitions/Count"
+            },
+            "gradient-alpha-mix": {
+              "$ref": "#/definitions/Count"
+            },
+            "skewed-picture": {
+              "$ref": "#/definitions/Count"
+            },
+            "anisotropic-line": {
+              "$ref": "#/definitions/Count"
+            },
+            "dash-phase": {
+              "$ref": "#/definitions/Count"
+            },
+            "hscale": {
+              "$ref": "#/definitions/Count"
+            },
+            "vertical-text": {
+              "$ref": "#/definitions/Count"
+            },
+            "text-skew": {
+              "$ref": "#/definitions/Count"
+            },
+            "text-pattern-fill": {
+              "$ref": "#/definitions/Count"
+            },
+            "type3-text": {
+              "$ref": "#/definitions/Count"
+            },
+            "text-drift-split": {
+              "$ref": "#/definitions/Count"
+            }
+          }
+        },
+        "droppedLinks": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "url",
+            "scheme",
+            "slide",
+            "page",
+            "budget",
+            "target"
+          ],
+          "properties": {
+            "url": {
+              "$ref": "#/definitions/Count"
+            },
+            "scheme": {
+              "$ref": "#/definitions/Count"
+            },
+            "slide": {
+              "$ref": "#/definitions/Count"
+            },
+            "page": {
+              "$ref": "#/definitions/Count"
+            },
+            "budget": {
+              "$ref": "#/definitions/Count"
+            },
+            "target": {
+              "$ref": "#/definitions/Count"
+            }
+          }
+        }
+      }
+    },
+    "budgets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slideWeight",
+        "deckWeight",
+        "exceeded"
+      ],
+      "properties": {
+        "slideWeight": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "deckWeight": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "exceeded": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "slide",
+            "deck"
+          ],
+          "properties": {
+            "slide": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "deck": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "StringOrNull": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "Count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "Approximation": {
+      "enum": [
+        "nonzero-approx",
+        "clip-dropped",
+        "clip-approx",
+        "group-alpha-folded",
+        "mask-dropped",
+        "blend-dropped",
+        "tile-unsupported",
+        "gradient-extend",
+        "radial-offset",
+        "gradient-alpha-mix",
+        "skewed-picture",
+        "anisotropic-line",
+        "dash-phase",
+        "hscale",
+        "vertical-text",
+        "text-skew",
+        "text-pattern-fill",
+        "type3-text",
+        "text-drift-split"
+      ]
+    },
+    "Note": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opIndex",
+        "op",
+        "detail"
+      ],
+      "properties": {
+        "opIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "op": {
+          "type": "string"
+        },
+        "detail": {
+          "type": "string"
+        }
+      }
+    },
+    "SlideReport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "index",
+        "class",
+        "scale",
+        "counts",
+        "fallbacks",
+        "fallbacksTruncated",
+        "approximations",
+        "approximationsTruncated",
+        "notes",
+        "failed"
+      ],
+      "properties": {
+        "index": {
+          "description": "The slide's page in the PDF, 1-based.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "class": {
+          "enum": [
+            "vector",
+            "image-only",
+            "print-frame"
+          ]
+        },
+        "scale": {
+          "description": "The uniform scale the page is drawn at to fit the slide, to 6 decimals; null when that is 1.",
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          ]
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "textBoxes",
+            "freeforms",
+            "rects",
+            "lines",
+            "pictures",
+            "gradients",
+            "hotspots",
+            "runLinks",
+            "fallbacks"
+          ],
+          "properties": {
+            "textBoxes": {
+              "description": "Text boxes written on the slide: one per box of text assembly (M4 Task 1).",
+              "$ref": "#/definitions/Count"
+            },
+            "freeforms": {
+              "$ref": "#/definitions/Count"
+            },
+            "rects": {
+              "$ref": "#/definitions/Count"
+            },
+            "lines": {
+              "$ref": "#/definitions/Count"
+            },
+            "pictures": {
+              "$ref": "#/definitions/Count"
+            },
+            "gradients": {
+              "$ref": "#/definitions/Count"
+            },
+            "hotspots": {
+              "$ref": "#/definitions/Count"
+            },
+            "runLinks": {
+              "$ref": "#/definitions/Count"
+            },
+            "fallbacks": {
+              "$ref": "#/definitions/Count"
+            }
+          }
+        },
+        "fallbacks": {
+          "description": "The first 1,000 fallbacks of the slide (ruling M3-R59); counts.fallbacks counts them all.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "reason"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "raster": {
+                "description": "M5: the picture the raster renderer drew of it, its size in pixels and the scale it was drawn at (2 px a pt, less past FALLBACK_MAX_PX); absent for a fallback written as nothing.",
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "w",
+                  "h",
+                  "pxPerPt"
+                ],
+                "properties": {
+                  "w": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "h": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "pxPerPt": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "maximum": 2
+                  }
+                }
+              }
+            }
+          },
+          "maxItems": 1000
+        },
+        "fallbacksTruncated": {
+          "description": "The fallbacks past the first 1,000, not listed.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "approximations": {
+          "description": "The first 1,000 (element id, kind) pairs of the slide (ruling M3-R59); totals.approximations counts them all.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "kind"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "kind": {
+                "$ref": "#/definitions/Approximation"
+              }
+            }
+          },
+          "maxItems": 1000
+        },
+        "approximationsTruncated": {
+          "description": "The approximations past the first 1,000, not listed.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Note"
+          }
+        },
+        "failed": {
+          "$ref": "#/definitions/StringOrNull"
+        }
+      }
+    }
+  }
+}

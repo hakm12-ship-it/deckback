@@ -1,0 +1,7 @@
+pymupdf
+python-pptx
+numpy
+pillow
+pytest
+fonttools
+scipy

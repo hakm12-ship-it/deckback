@@ -1,0 +1,4 @@
+#!/bin/sh
+# Blocks commits that stage binary, office or font files. Enabled by: git config core.hooksPath .githooks
+cd "$(git rev-parse --show-toplevel)" || exit 1
+exec node scripts/check-no-binaries.mjs

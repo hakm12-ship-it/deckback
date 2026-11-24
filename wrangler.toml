@@ -1,0 +1,4 @@
+# Cloudflare Pages project. No secrets here: the credentials come from `wrangler login` or CLOUDFLARE_API_TOKEN in .env.
+name = "deckback"
+pages_build_output_dir = "apps/web/dist"
+compatibility_date = "2026-11-01"

@@ -1,0 +1,192 @@
+{
+  "note": "family is the Windows family name (name table nameID 1) that PowerPoint uses as the typeface name; fonts.lock.json is the only list of fonts public test decks and PDFs may embed. Static files only, never variable ones, and no family whose name a Windows system font also has (Windows would pick the system font). format: ttf is TrueType outlines (glyf), which PowerPoint's PDF export embeds as a subset; otf-cff is OpenType with CFF outlines, which it does not embed (it draws that text as a bitmap). fullName (nameID 4) names the per-user registry value; postscriptName (nameID 6) is the name an embedded program carries. Every url is pinned to a commit; install-fonts.ps1 refuses a file whose sha256 differs. retired lists files an earlier version of this lock installed; install-fonts.ps1 removes them (only when the file and its registry value are exactly the ones listed).",
+  "families": [
+    {
+      "family": "Gothic A1",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "GothicA1-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/gothica1/GothicA1-Regular.ttf",
+          "sha256": "211151bea98098c579610ab1114bb1bfe909057207db561f357b896d076c21ac",
+          "format": "ttf",
+          "fullName": "Gothic A1 Regular",
+          "postscriptName": "GothicA1-Regular"
+        },
+        {
+          "file": "GothicA1-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/gothica1/GothicA1-Bold.ttf",
+          "sha256": "2e883fa0ae548000996258b4101f2bb732a28b197264f49621a2cb16d6e9f126",
+          "format": "ttf",
+          "fullName": "Gothic A1 Bold",
+          "postscriptName": "GothicA1-Bold"
+        }
+      ]
+    },
+    {
+      "family": "Pretendard",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Pretendard-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/orioncactus/pretendard/5c41199ea0024a9e0b2cb31735265056e5472d76/packages/pretendard/dist/public/static/alternative/Pretendard-Regular.ttf",
+          "sha256": "6d0af5258997aec7354a6e340fc2325ba321c410ca48b3af858c8c3d6e92a324",
+          "format": "ttf",
+          "fullName": "Pretendard Regular",
+          "postscriptName": "Pretendard-Regular"
+        },
+        {
+          "file": "Pretendard-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/orioncactus/pretendard/5c41199ea0024a9e0b2cb31735265056e5472d76/packages/pretendard/dist/public/static/alternative/Pretendard-Bold.ttf",
+          "sha256": "c16b88c670d23e83fa1170c954cbc4822d3b8dad3c3cde15d798a94b43d97985",
+          "format": "ttf",
+          "fullName": "Pretendard Bold",
+          "postscriptName": "Pretendard-Bold"
+        }
+      ]
+    },
+    {
+      "family": "Pretendard Light",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Pretendard-Light.ttf",
+          "url": "https://raw.githubusercontent.com/orioncactus/pretendard/5c41199ea0024a9e0b2cb31735265056e5472d76/packages/pretendard/dist/public/static/alternative/Pretendard-Light.ttf",
+          "sha256": "1ba73b22955754bb9ed6bbf7678416af647f90704e9064661f7924da578dad3e",
+          "format": "ttf",
+          "fullName": "Pretendard Light",
+          "postscriptName": "Pretendard-Light"
+        }
+      ]
+    },
+    {
+      "family": "Pretendard Black",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Pretendard-Black.ttf",
+          "url": "https://raw.githubusercontent.com/orioncactus/pretendard/5c41199ea0024a9e0b2cb31735265056e5472d76/packages/pretendard/dist/public/static/alternative/Pretendard-Black.ttf",
+          "sha256": "0a7c1fd65a599f9d25de860cc832ea9ac40c207775e33eb4344a4647392a2b5d",
+          "format": "ttf",
+          "fullName": "Pretendard Black",
+          "postscriptName": "Pretendard-Black"
+        }
+      ]
+    },
+    {
+      "family": "Gowun Batang",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "GowunBatang-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/gowunbatang/GowunBatang-Regular.ttf",
+          "sha256": "466c593e7147412e748af4856d5ad14709b5a860bdf62b9c2546f2c5874e9849",
+          "format": "ttf",
+          "fullName": "Gowun Batang Regular",
+          "postscriptName": "GowunBatang-Regular"
+        },
+        {
+          "file": "GowunBatang-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/gowunbatang/GowunBatang-Bold.ttf",
+          "sha256": "dbfcaa646e5831e7478524924f02906f550285a5050699b4e38c9950b3ec4b94",
+          "format": "ttf",
+          "fullName": "Gowun Batang Bold",
+          "postscriptName": "GowunBatang-Bold"
+        }
+      ]
+    },
+    {
+      "family": "NanumGothic",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "NanumGothic-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/nanumgothic/NanumGothic-Regular.ttf",
+          "sha256": "76f45ef4a6bcff344c837c95a7dcc26e017e38b5846d5ae0cdcb5b86be2e2d31",
+          "format": "ttf",
+          "fullName": "NanumGothic",
+          "postscriptName": "NanumGothic"
+        },
+        {
+          "file": "NanumGothic-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/nanumgothic/NanumGothic-Bold.ttf",
+          "sha256": "f96298f9fb18e364d2370f4c3ce948ac67a2b61af992d7234bc15c42b033c674",
+          "format": "ttf",
+          "fullName": "NanumGothicBold",
+          "postscriptName": "NanumGothicBold"
+        }
+      ]
+    },
+    {
+      "family": "NanumGothicExtraBold",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "NanumGothic-ExtraBold.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/nanumgothic/NanumGothic-ExtraBold.ttf",
+          "sha256": "5c4568e5295a8c52bc30e7efa1ea6d2de43556268ef42daba93540a1ece691ae",
+          "format": "ttf",
+          "fullName": "NanumGothicExtraBold",
+          "postscriptName": "NanumGothicExtraBold"
+        }
+      ]
+    },
+    {
+      "family": "Source Sans 3",
+      "license": "OFL-1.1",
+      "note": "OpenType-CFF on purpose, Latin only, release 3.052R: only the atlas slide fonts/01 uses it, to capture PowerPoint drawing text in a font it does not embed as a bitmap (that slide is knownBitmapText in the manifest).",
+      "files": [
+        {
+          "file": "SourceSans3-Regular.otf",
+          "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/OTF/SourceSans3-Regular.otf",
+          "sha256": "08df266400933d3178d081a45f94a08814c3e55b4b7dd2e0ff69cb1329f13ab6",
+          "format": "otf-cff",
+          "fullName": "Source Sans 3",
+          "postscriptName": "SourceSans3-Regular"
+        }
+      ]
+    }
+  ],
+  "retired": [
+    {
+      "file": "NotoSansKR-Regular.otf",
+      "sha256": "69975a0ac8472717870aefeab0a4d52739308d90856b9955313b2ad5e0148d68",
+      "registryValue": "Noto Sans KR (TrueType)"
+    },
+    {
+      "file": "NotoSansKR-Bold.otf",
+      "sha256": "5a6ceb287ed2fc6cfc6213144ebea68cbd94b20fc9eb873d8486493bf02d9bda",
+      "registryValue": "Noto Sans KR Bold (TrueType)"
+    },
+    {
+      "file": "NotoSansKR-Light.otf",
+      "sha256": "5971aca275255797a75c7fc43d5058487668069da93c45ad4a24be5aa1e67c85",
+      "registryValue": "Noto Sans KR Light (TrueType)"
+    },
+    {
+      "file": "NotoSansKR-Black.otf",
+      "sha256": "a9977a588488d2a7f544bb2b589b01bed071dca64a4655d438696301b527884b",
+      "registryValue": "Noto Sans KR Black (TrueType)"
+    },
+    {
+      "file": "NotoSerifKR-Regular.otf",
+      "sha256": "5ea012e15cb7eacc1f680aee1703f3b164791b1443ea3e52b65080cca5d179cf",
+      "registryValue": "Noto Serif KR (TrueType)"
+    },
+    {
+      "file": "NotoSerifKR-Bold.otf",
+      "sha256": "263408609ef416d597718ea91055379867d3e7086fa32f049996995d4e715e55",
+      "registryValue": "Noto Serif KR Bold (TrueType)"
+    },
+    {
+      "file": "Pretendard-Regular.otf",
+      "sha256": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+      "registryValue": "Pretendard Regular (TrueType)"
+    },
+    {
+      "file": "Pretendard-Bold.otf",
+      "sha256": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+      "registryValue": "Pretendard Bold (TrueType)"
+    }
+  ]
+}

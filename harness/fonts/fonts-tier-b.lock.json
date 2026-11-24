@@ -1,0 +1,359 @@
+{
+  "note": "M8 Task 2 (spec 5.5): the free fonts that tier-B PowerPoint (Windows) PDFs embed and that neither this PC nor Office's cloud fonts provide (PowerPoint for Microsoft 365 downloads the Office cloud fonts a deck uses on its own, e.g. Montserrat, Nunito, Fira Sans, Aptos Black; a second copy of another version makes the render differ from the PDF). Installed for the current user with harness/fonts/install-fonts.ps1 -LockPath <this file>. Static TrueType files only, every url pinned to a commit, family = nameID 1 as the PDFs name it. retired: the cloud-font families an earlier version of this lock installed. Not the list public test decks may embed (that is fonts.lock.json). M8 round 1c (spec 5.5): Catamaran (static files of its original repository, the PDFs embed Regular, Bold and Light), Ledger, Economica and Geologica (OFL-1.1) added; the installer still skips any family that is an Office cloud font (M8-R4).",
+  "families": [
+    {
+      "family": "Liberation Sans",
+      "license": "Liberation Fonts license (GPL-2.0 with font exception)",
+      "files": [
+        {
+          "file": "LiberationSans-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/mozilla/pdf.js/c7ca8a32e5676764ddf94226e9ef1720405fc631/external/standard_fonts/LiberationSans-Regular.ttf",
+          "sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f",
+          "format": "ttf",
+          "fullName": "Liberation Sans",
+          "postscriptName": "LiberationSans"
+        },
+        {
+          "file": "LiberationSans-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/mozilla/pdf.js/c7ca8a32e5676764ddf94226e9ef1720405fc631/external/standard_fonts/LiberationSans-Bold.ttf",
+          "sha256": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc",
+          "format": "ttf",
+          "fullName": "Liberation Sans Bold",
+          "postscriptName": "LiberationSans-Bold"
+        }
+      ]
+    },
+    {
+      "family": "OpenSymbol",
+      "license": "LibreOffice (MPL-2.0 / LGPL-3.0)",
+      "files": [
+        {
+          "file": "opens___.ttf",
+          "url": "https://raw.githubusercontent.com/LibreOffice/core/52eb78c8d2c9954733d95326922462a820d9f0dd/extras/source/truetype/symbol/opens___.ttf",
+          "sha256": "49a64f3bcf20a7909ba2751349231d6652ded9cd2840e961b5164d09de3ffa63",
+          "format": "ttf",
+          "fullName": "OpenSymbol",
+          "postscriptName": "OpenSymbol"
+        }
+      ]
+    },
+    {
+      "family": "Nobile",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Nobile-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/5bd87dfc525c8a0d1d8529d3684716e00c3fc59a/ofl/nobile/Nobile-Regular.ttf",
+          "sha256": "fc2eab24ea3dbe7f5d80324fa5c5d3ea5098175755c3218e3d54cec4355987f2",
+          "format": "ttf",
+          "fullName": "Nobile",
+          "postscriptName": "Nobile-Regular"
+        }
+      ]
+    },
+    {
+      "family": "Nobile Medium",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Nobile-Medium.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/5bd87dfc525c8a0d1d8529d3684716e00c3fc59a/ofl/nobile/Nobile-Medium.ttf",
+          "sha256": "0926ef055e7637dd23eeb1717a45b6eef4e5c5c1bd99a9516d2770e587ae4524",
+          "format": "ttf",
+          "fullName": "Nobile Medium",
+          "postscriptName": "Nobile-Medium"
+        }
+      ]
+    },
+    {
+      "family": "Special Elite",
+      "license": "Apache-2.0",
+      "files": [
+        {
+          "file": "SpecialElite-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/5bd87dfc525c8a0d1d8529d3684716e00c3fc59a/apache/specialelite/SpecialElite-Regular.ttf",
+          "sha256": "a776fcb4ceb8bdf03e2967688ebdad42680de5b91a7e62c17e718ae212d14bc4",
+          "format": "ttf",
+          "fullName": "Special Elite Regular",
+          "postscriptName": "SpecialElite-Regular"
+        }
+      ]
+    },
+    {
+      "family": "Catamaran",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Catamaran-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/VanillaandCream/Catamaran-Tamil/7559b4906f9c9148fb22c6f89508c3053a78a296/Fonts/Catamaran-Regular.ttf",
+          "sha256": "ae2088335caa07f0c3defe356b771e31118f557031f8c978a9ea60d7f698a3c2",
+          "format": "ttf",
+          "fullName": "Catamaran Regular",
+          "postscriptName": "Catamaran-Regular"
+        },
+        {
+          "file": "Catamaran-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/VanillaandCream/Catamaran-Tamil/7559b4906f9c9148fb22c6f89508c3053a78a296/Fonts/Catamaran-Bold.ttf",
+          "sha256": "0278d61ce8fb696eaaf252336dca4ccd3d17edda1bd1fe1717820356c59c29d3",
+          "format": "ttf",
+          "fullName": "Catamaran Bold",
+          "postscriptName": "Catamaran-Bold"
+        }
+      ]
+    },
+    {
+      "family": "Catamaran Light",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Catamaran-Light.ttf",
+          "url": "https://raw.githubusercontent.com/VanillaandCream/Catamaran-Tamil/7559b4906f9c9148fb22c6f89508c3053a78a296/Fonts/Catamaran-Light.ttf",
+          "sha256": "8dee5eaf6f4953a9ad7fa8c324c89d89f686d1cf5c4e13f10096493d761e8c3d",
+          "format": "ttf",
+          "fullName": "Catamaran Light",
+          "postscriptName": "Catamaran-Light"
+        }
+      ]
+    },
+    {
+      "family": "Ledger",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Ledger-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/5bd87dfc525c8a0d1d8529d3684716e00c3fc59a/ofl/ledger/Ledger-Regular.ttf",
+          "sha256": "0d9e4086208d5aee8813ae1185010c58fa2f07933fb5c1a1d0950f42bd976272",
+          "format": "ttf",
+          "fullName": "Ledger",
+          "postscriptName": "Ledger-Regular"
+        }
+      ]
+    },
+    {
+      "family": "Economica",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Economica-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/5bd87dfc525c8a0d1d8529d3684716e00c3fc59a/ofl/economica/Economica-Regular.ttf",
+          "sha256": "7d5e3599ef99560f6ecafd0fe41753484ee86f215a7f6c5033c6c07d65b5d7b4",
+          "format": "ttf",
+          "fullName": "Economica",
+          "postscriptName": "Economica-Regular"
+        },
+        {
+          "file": "Economica-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/5bd87dfc525c8a0d1d8529d3684716e00c3fc59a/ofl/economica/Economica-Bold.ttf",
+          "sha256": "b65bd51b7be6bd0df20bf9a652c96afb0ecd7cc1863bd2c3ee8f00e2e29304f4",
+          "format": "ttf",
+          "fullName": "Economica Bold",
+          "postscriptName": "Economica-Bold"
+        }
+      ]
+    },
+    {
+      "family": "Geologica",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "file": "Geologica-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/googlefonts/geologica/685f38d7c9e86b0c8530204c97ddcaf6558dd17b/fonts/ttf/Geologica-Regular.ttf",
+          "sha256": "6867b38d4b6f996af261172ce5d6e1eae2d0c895b7c67eb2ded67e6c12cffbb7",
+          "format": "ttf",
+          "fullName": "Geologica Regular",
+          "postscriptName": "Geologica-Regular"
+        },
+        {
+          "file": "Geologica-Bold.ttf",
+          "url": "https://raw.githubusercontent.com/googlefonts/geologica/685f38d7c9e86b0c8530204c97ddcaf6558dd17b/fonts/ttf/Geologica-Bold.ttf",
+          "sha256": "84eb83c060a52e89fac60409503deb7b0d5aa8f4c35d24c247a042aac91a1fe8",
+          "format": "ttf",
+          "fullName": "Geologica Bold",
+          "postscriptName": "Geologica-Bold"
+        }
+      ]
+    }
+  ],
+  "retired": [
+    {
+      "file": "AtkinsonHyperlegibleNext-Regular.ttf",
+      "sha256": "88ed5c31a71584c7772963b02d04bef1eb7e3d2e9c8b9cb204339b1f82cf432c",
+      "registryValue": "Atkinson Hyperlegible Next Regular (TrueType)"
+    },
+    {
+      "file": "AtkinsonHyperlegibleNext-Bold.ttf",
+      "sha256": "994414047df66bb4998d01c1cb1eeb4a2ddc4622d1aa56bbb8adbeca7645b041",
+      "registryValue": "Atkinson Hyperlegible Next Bold (TrueType)"
+    },
+    {
+      "file": "Barlow-Regular.ttf",
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+      "registryValue": "Barlow Regular (TrueType)"
+    },
+    {
+      "file": "FiraSans-Regular.ttf",
+      "sha256": "c29556a2719bf613ef3d5e070e40d903a8965d9c081beca1375dc1e6e0f93c23",
+      "registryValue": "Fira Sans Regular (TrueType)"
+    },
+    {
+      "file": "FiraSans-Bold.ttf",
+      "sha256": "a4d8e149ecdd4874a0726eb0af894488b3b31c423d6b0017c8f415ed1b795b45",
+      "registryValue": "Fira Sans Bold (TrueType)"
+    },
+    {
+      "file": "FiraSans-ExtraLight.ttf",
+      "sha256": "f575442d8b863086599208c9b69d0e345a0936f3ec27b12b3fbc41526b56e838",
+      "registryValue": "Fira Sans ExtraLight (TrueType)"
+    },
+    {
+      "file": "FiraSans-Light.ttf",
+      "sha256": "e2172f4a23e9be22f977c34de3897d890401bbc5e9c47df968dfa2c01fb32235",
+      "registryValue": "Fira Sans Light (TrueType)"
+    },
+    {
+      "file": "FiraSans-LightItalic.ttf",
+      "sha256": "ca4228bdd77761e229e74e3e30f3a3786a75275b77e675decb75f7d356d7f7b4",
+      "registryValue": "Fira Sans Light Italic (TrueType)"
+    },
+    {
+      "file": "FiraSans-Medium.ttf",
+      "sha256": "cbc1842cbed8c1d1146ba7c9db97d8f28c9bedfd25f41c5b0e1259ca48622328",
+      "registryValue": "Fira Sans Medium (TrueType)"
+    },
+    {
+      "file": "Heebo-Regular.ttf",
+      "sha256": "16061c98cb45e8651a78f25d6ff3d7883406974a1e3925622a851415c1be01fb",
+      "registryValue": "Heebo Regular (TrueType)"
+    },
+    {
+      "file": "Heebo-Bold.ttf",
+      "sha256": "d6d4f58992831e30f64bdad2a680924a29e0087ed98373e0d0becdf1a98e5d94",
+      "registryValue": "Heebo Bold (TrueType)"
+    },
+    {
+      "file": "Heebo-Light.ttf",
+      "sha256": "93708eed0cc54350ab2f7874e94831e28d65fb461100364df21081388deeea10",
+      "registryValue": "Heebo Light (TrueType)"
+    },
+    {
+      "file": "Livvic-Regular.ttf",
+      "sha256": "778e7577cf8ed8f0a97eb657bbf4d4f05bc0c6e8eb0ac8458f25a0eaa6ca16e8",
+      "registryValue": "Livvic Regular (TrueType)"
+    },
+    {
+      "file": "Livvic-Bold.ttf",
+      "sha256": "f2e3a5952c0fe465778a2eb93a8a4fd1f27fb6a9f8080f9aa2c7f085212dcf3f",
+      "registryValue": "Livvic Bold (TrueType)"
+    },
+    {
+      "file": "Montserrat-Regular.ttf",
+      "sha256": "81ebc3916b524007b756d91d9df13c7673ec401161f2cad161662d08dcf1cc72",
+      "registryValue": "Montserrat Regular (TrueType)"
+    },
+    {
+      "file": "Montserrat-Bold.ttf",
+      "sha256": "c4c8cb572a5a2c43d78b3701f4b2349684e6ca4d1557e469af6065b1e099c26c",
+      "registryValue": "Montserrat Bold (TrueType)"
+    },
+    {
+      "file": "Nunito-Regular.ttf",
+      "sha256": "880ead818af373b0da8c2a3e493f7d0a9c1db149a67a867b04f0952c475d667a",
+      "registryValue": "Nunito Regular (TrueType)"
+    },
+    {
+      "file": "Nunito-Bold.ttf",
+      "sha256": "f922b74ed5cca7c8675d352fd5ed197e0f38b3ac4a427c15b7a3db039dc6294c",
+      "registryValue": "Nunito Bold (TrueType)"
+    },
+    {
+      "file": "Nunito-Black.ttf",
+      "sha256": "d6667951b63587cd9374c5f7c02d2d0200704329d0f50ff1fac44e949fd2c7c0",
+      "registryValue": "Nunito Black (TrueType)"
+    },
+    {
+      "file": "Nunito-ExtraBold.ttf",
+      "sha256": "2d0979711b8cdf8be91827776b493e5483e639985d79acd937d752e1c13ce6c6",
+      "registryValue": "Nunito ExtraBold (TrueType)"
+    },
+    {
+      "file": "Nunito-ExtraLight.ttf",
+      "sha256": "6acf0cc1c75c902bb1c597a7e46cd248b1d04d6812e88ba3c725d6a7e6c9fda2",
+      "registryValue": "Nunito ExtraLight (TrueType)"
+    },
+    {
+      "file": "OpenSans-ExtraBold.ttf",
+      "sha256": "22c3e66c8a0ae60bf10ee636bb8a54d61ff77c956f5c4ebe3058b793e56ee727",
+      "registryValue": "Open Sans ExtraBold (TrueType)"
+    },
+    {
+      "file": "Poppins-Regular.ttf",
+      "sha256": "7e65201e9b79159e2300267cc885e16c8dcef2424cdfa09a29bfb0980a94a7ba",
+      "registryValue": "Poppins Regular (TrueType)"
+    },
+    {
+      "file": "Poppins-Bold.ttf",
+      "sha256": "983676516167748b74de6f4771fb384c664fd913acb8b471122ecacf5da5ea6c",
+      "registryValue": "Poppins Bold (TrueType)"
+    },
+    {
+      "file": "Poppins-Italic.ttf",
+      "sha256": "4fa76ae75b40f926420514044722cb97f32186cafd3b38263cc34dad7174d46d",
+      "registryValue": "Poppins Italic (TrueType)"
+    },
+    {
+      "file": "Raleway-Regular.ttf",
+      "sha256": "20e4ae409ffbe8bfd2af14d7f717398408ae8b481005beccb83d62ef4052b681",
+      "registryValue": "Raleway (TrueType)"
+    },
+    {
+      "file": "Raleway-Bold.ttf",
+      "sha256": "ca9de8b3be7ccd4b80774a9c7dd56a98c49c276771c5957729b5958d1d579112",
+      "registryValue": "Raleway Bold (TrueType)"
+    },
+    {
+      "file": "Raleway-Italic.ttf",
+      "sha256": "f9c5e089b4bb57662171cc7120e1dcae8d66432b4447dd7a7babb0c5e06aa93e",
+      "registryValue": "Raleway Italic (TrueType)"
+    },
+    {
+      "file": "Raleway-BoldItalic.ttf",
+      "sha256": "647fb029a65c0cd0b5a64a1d178ee4e118731e963cb1ef62cf24427b8b251c2a",
+      "registryValue": "Raleway Bold Italic (TrueType)"
+    },
+    {
+      "file": "TitilliumWeb-Regular.ttf",
+      "sha256": "7b6b4452c65cc8b8522e92e7d4d4c2e6d7675341ceafd041bb6bd30297517ea5",
+      "registryValue": "Titillium Web Regular (TrueType)"
+    },
+    {
+      "file": "TitilliumWeb-Bold.ttf",
+      "sha256": "e2e8e1812041e2c5868f1d03ac24994312052c5381cca2e80748f08cb7e13093",
+      "registryValue": "Titillium Web Bold (TrueType)"
+    },
+    {
+      "file": "TitilliumWeb-Italic.ttf",
+      "sha256": "4f08e681c1b38f825125a1a5a9c8a38d0eb94eea51b04cdb2a17cbec47f90833",
+      "registryValue": "Titillium Web Italic (TrueType)"
+    },
+    {
+      "file": "WorkSans-Regular.ttf",
+      "sha256": "c4df840f74d05fddda0e716c9991f6d176bb278e43c39c8817760bbcbfdad3c5",
+      "registryValue": "Work Sans Regular (TrueType)"
+    },
+    {
+      "file": "WorkSans-Bold.ttf",
+      "sha256": "e32ca4477095e3b259915d3db0b2acd1091e9d142706a54ba3eb2dcc54184c41",
+      "registryValue": "Work Sans Bold (TrueType)"
+    },
+    {
+      "file": "WorkSans-Italic.ttf",
+      "sha256": "24894df6fcdeb4f1fc993bb8d7f7c6477a64cbb99d7ba5676f972cd9a8ba2143",
+      "registryValue": "Work Sans Italic (TrueType)"
+    },
+    {
+      "file": "WorkSans-BoldItalic.ttf",
+      "sha256": "a1338695abc364551a6d9dfb183a59970b96371f64512fd755808f6eddc558c9",
+      "registryValue": "Work Sans Bold Italic (TrueType)"
+    }
+  ]
+}

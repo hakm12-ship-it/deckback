@@ -1,0 +1,711 @@
+{
+  "deck": "atlas-smoke",
+  "fonts": "ofl",
+  "slideSize": [
+    960,
+    540
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "shapes",
+      "id": "atlas/shapes/01",
+      "features": [
+        "prstGeom:line",
+        "prstGeom:lineInv",
+        "prstGeom:triangle",
+        "prstGeom:rtTriangle",
+        "prstGeom:rect",
+        "prstGeom:diamond",
+        "prstGeom:parallelogram",
+        "prstGeom:trapezoid",
+        "prstGeom:nonIsoscelesTrapezoid",
+        "prstGeom:pentagon",
+        "prstGeom:hexagon",
+        "prstGeom:heptagon"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 2,
+      "section": "shapes",
+      "id": "atlas/shapes/09",
+      "features": [
+        "prstGeom:bentConnector2",
+        "prstGeom:bentConnector3",
+        "prstGeom:bentConnector4",
+        "prstGeom:bentConnector5",
+        "prstGeom:curvedConnector2",
+        "prstGeom:curvedConnector3",
+        "prstGeom:curvedConnector4",
+        "prstGeom:curvedConnector5",
+        "prstGeom:callout1",
+        "prstGeom:callout2",
+        "prstGeom:callout3",
+        "prstGeom:accentCallout1"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 3,
+      "section": "shapes",
+      "id": "atlas/shapes/20",
+      "features": [
+        "grpSp",
+        "grpSp:nested",
+        "grpSp:connector",
+        "grpSp:text",
+        "prstGeom:rect",
+        "prstGeom:ellipse",
+        "prstGeom:triangle",
+        "prstGeom:star5",
+        "prstGeom:roundRect",
+        "prstGeom:bentConnector3"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 4,
+      "section": "lines",
+      "id": "atlas/lines/01",
+      "features": [
+        "prstDash:solid",
+        "prstDash:dot",
+        "prstDash:dash",
+        "prstDash:lgDash",
+        "prstDash:dashDot",
+        "prstDash:lgDashDot",
+        "prstDash:lgDashDotDot",
+        "prstDash:sysDash",
+        "prstDash:sysDot",
+        "prstDash:sysDashDot",
+        "prstDash:sysDashDotDot",
+        "prstGeom:straightConnector1"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 5,
+      "section": "lines",
+      "id": "atlas/lines/06",
+      "features": [
+        "lineEnd:none:sm",
+        "lineEnd:none:med",
+        "lineEnd:none:lg",
+        "lineEnd:triangle:sm",
+        "lineEnd:triangle:med",
+        "lineEnd:triangle:lg",
+        "lineEnd:stealth:sm",
+        "lineEnd:stealth:med",
+        "lineEnd:stealth:lg",
+        "lineEnd:diamond:sm",
+        "lineEnd:diamond:med",
+        "lineEnd:diamond:lg",
+        "lineEnd:oval:sm",
+        "lineEnd:oval:med",
+        "lineEnd:oval:lg",
+        "lineEnd:arrow:sm",
+        "lineEnd:arrow:med",
+        "lineEnd:arrow:lg",
+        "prstGeom:straightConnector1"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 6,
+      "section": "lines",
+      "id": "atlas/lines/09",
+      "features": [
+        "cxnSp:straightConnector1",
+        "cxnSp:bentConnector3",
+        "cxnSp:curvedConnector3",
+        "cxn:flipH",
+        "cxn:flipV",
+        "prstGeom:straightConnector1",
+        "prstGeom:bentConnector3",
+        "prstGeom:curvedConnector3"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 7,
+      "section": "fills",
+      "id": "atlas/fills/01",
+      "features": [
+        "solidFill:srgb",
+        "prstGeom:rect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 8,
+      "section": "fills",
+      "id": "atlas/fills/03",
+      "features": [
+        "alpha:10",
+        "alpha:25",
+        "alpha:50",
+        "alpha:75",
+        "alpha:90",
+        "solidFill:alpha",
+        "prstGeom:rect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 9,
+      "section": "fills",
+      "id": "atlas/fills/04",
+      "features": [
+        "gradFill:lin:0",
+        "gradFill:lin:45",
+        "gradFill:lin:90",
+        "gradFill:lin:135",
+        "gradFill:lin:180",
+        "gradFill:lin:225",
+        "gradFill:lin:270",
+        "gradFill:lin:315",
+        "gradFill:scaled",
+        "gradFill:rotWithShape",
+        "prstGeom:rect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 10,
+      "section": "fills",
+      "id": "atlas/fills/08",
+      "features": [
+        "pattFill:pct5",
+        "pattFill:pct10",
+        "pattFill:pct20",
+        "pattFill:pct25",
+        "pattFill:pct30",
+        "pattFill:pct40",
+        "pattFill:pct50",
+        "pattFill:pct60",
+        "pattFill:pct70",
+        "pattFill:pct75",
+        "pattFill:pct80",
+        "pattFill:pct90",
+        "prstGeom:rect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 11,
+      "section": "fills",
+      "id": "atlas/fills/14",
+      "features": [
+        "blipFill:stretch",
+        "blipFill:srcRect",
+        "blipFill:fillRect",
+        "blipFill:rotWithShape",
+        "prstGeom:rect",
+        "prstGeom:ellipse",
+        "prstGeom:star5",
+        "prstGeom:heart",
+        "prstGeom:roundRect",
+        "prstGeom:snip2DiagRect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 12,
+      "section": "effects",
+      "id": "atlas/effects/01",
+      "features": [
+        "effect:outerShdw:shape",
+        "prstGeom:roundRect",
+        "prstGeom:ellipse"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 13,
+      "section": "effects",
+      "id": "atlas/effects/02",
+      "features": [
+        "effect:outerShdw:text"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 14,
+      "section": "effects",
+      "id": "atlas/effects/13",
+      "features": [
+        "effect:3dRotation:shape",
+        "camera:isometricLeftDown",
+        "camera:isometricRightUp",
+        "camera:isometricTopUp",
+        "camera:isometricOffAxis1Left",
+        "camera:obliqueTopLeft",
+        "camera:obliqueBottomRight",
+        "camera:perspectiveFront",
+        "camera:perspectiveLeft",
+        "camera:perspectiveRight",
+        "camera:perspectiveAbove",
+        "camera:perspectiveContrastingLeftFacing",
+        "camera:rot",
+        "sp3d:extrusion",
+        "prstGeom:roundRect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 15,
+      "section": "text",
+      "id": "atlas/text/01",
+      "features": [
+        "typeface:Gothic A1",
+        "fontSize:8",
+        "fontSize:12",
+        "fontSize:18",
+        "fontSize:24",
+        "fontSize:36",
+        "fontSize:54"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 16,
+      "section": "text",
+      "id": "atlas/text/02",
+      "features": [
+        "typeface:Pretendard",
+        "fontSize:8",
+        "fontSize:12",
+        "fontSize:18",
+        "fontSize:24",
+        "fontSize:36",
+        "fontSize:54"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 17,
+      "section": "text",
+      "id": "atlas/text/05",
+      "features": [
+        "typeface:Gothic A1",
+        "typeface:Pretendard Light",
+        "typeface:Pretendard",
+        "typeface:Pretendard Black",
+        "typeface:Gowun Batang",
+        "typeface:NanumGothic",
+        "typeface:NanumGothicExtraBold",
+        "rPr:b"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 18,
+      "section": "text",
+      "id": "atlas/text/06",
+      "features": [
+        "rPr:b",
+        "rPr:i",
+        "rPr:b+i",
+        "u:sng",
+        "strike:sngStrike",
+        "strike:dblStrike",
+        "baseline:super",
+        "baseline:sub"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 19,
+      "section": "text",
+      "id": "atlas/text/10",
+      "features": [
+        "spc:-1",
+        "spc:0",
+        "spc:3",
+        "spc:6"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 20,
+      "section": "text",
+      "id": "atlas/text/17",
+      "features": [
+        "algn:l",
+        "algn:ctr",
+        "algn:r",
+        "algn:just",
+        "algn:dist",
+        "typeface:Pretendard"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 21,
+      "section": "text",
+      "id": "atlas/text/19",
+      "features": [
+        "vert:vert",
+        "vert:vert270",
+        "vert:eaVert",
+        "vert:wordArtVert"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 22,
+      "section": "text",
+      "id": "atlas/text/24",
+      "features": [
+        "numCol:2",
+        "numCol:3",
+        "typeface:Pretendard",
+        "typeface:Gowun Batang"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 23,
+      "section": "text",
+      "id": "atlas/text/25",
+      "features": [
+        "buChar",
+        "buClr",
+        "buSzPct",
+        "marL+indent"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 24,
+      "section": "wordart",
+      "id": "atlas/wordart/01",
+      "features": [
+        "prstTxWarp:textNoShape",
+        "prstTxWarp:textPlain",
+        "prstTxWarp:textStop",
+        "prstTxWarp:textTriangle",
+        "prstTxWarp:textTriangleInverted",
+        "prstTxWarp:textChevron",
+        "text:solidFill:srgb"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 25,
+      "section": "wordart",
+      "id": "atlas/wordart/04",
+      "features": [
+        "prstTxWarp:textCurveDown",
+        "prstTxWarp:textCanUp",
+        "prstTxWarp:textCanDown",
+        "prstTxWarp:textWave1",
+        "prstTxWarp:textWave2",
+        "prstTxWarp:textDoubleWave1",
+        "effect:outerShdw:text"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 26,
+      "section": "tables",
+      "id": "atlas/tables/01",
+      "features": [
+        "tbl",
+        "tbl:styleId",
+        "tbl:firstRow",
+        "tbl:bandRow",
+        "algn:r"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 27,
+      "section": "tables",
+      "id": "atlas/tables/02",
+      "features": [
+        "tbl",
+        "tbl:gridSpan",
+        "tbl:rowSpan",
+        "tbl:hMerge",
+        "tbl:vMerge",
+        "algn:ctr"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 28,
+      "section": "charts",
+      "id": "atlas/charts/01",
+      "features": [
+        "chart:fonts",
+        "chart:korean",
+        "chart:barChart",
+        "chart:barDir:col",
+        "chart:grouping:clustered",
+        "chart:title",
+        "chart:legend",
+        "chart:dLbls",
+        "chart:axisTitle",
+        "chart:gridlines",
+        "chart:korean-categories",
+        "chart:ser:solidFill"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 29,
+      "section": "charts",
+      "id": "atlas/charts/04",
+      "features": [
+        "chart:fonts",
+        "chart:korean",
+        "chart:barChart",
+        "chart:barDir:bar",
+        "chart:grouping:clustered",
+        "chart:dLbls",
+        "chart:korean-categories",
+        "chart:ser:solidFill"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 30,
+      "section": "charts",
+      "id": "atlas/charts/07",
+      "features": [
+        "chart:fonts",
+        "chart:korean",
+        "chart:lineChart",
+        "chart:marker",
+        "chart:marker:symbol",
+        "chart:legend",
+        "chart:korean-categories",
+        "chart:axisTitle"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 31,
+      "section": "charts",
+      "id": "atlas/charts/09",
+      "features": [
+        "chart:fonts",
+        "chart:korean",
+        "chart:pieChart",
+        "chart:dLbls",
+        "chart:explosion",
+        "chart:varyColors",
+        "chart:dPt",
+        "chart:korean-categories"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 32,
+      "section": "pictures",
+      "id": "atlas/pictures/01",
+      "features": [
+        "pic",
+        "pic:png:rgb",
+        "pic:png:rgba",
+        "pic:jpeg:rgb",
+        "pic:jpeg:cmyk",
+        "prstGeom:rect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 33,
+      "section": "pictures",
+      "id": "atlas/pictures/04",
+      "features": [
+        "pic",
+        "pic:rot",
+        "pic:rot:15",
+        "pic:rot:30",
+        "pic:rot:45",
+        "pic:rot:90",
+        "pic:rot:180",
+        "pic:rot:345",
+        "prstGeom:rect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 34,
+      "section": "pictures",
+      "id": "atlas/pictures/06",
+      "features": [
+        "pic",
+        "pic:grayscl",
+        "pic:duotone",
+        "pic:biLevel",
+        "pic:lum",
+        "prstGeom:rect"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 35,
+      "section": "backgrounds",
+      "id": "atlas/backgrounds/01",
+      "features": [
+        "bg:solidFill",
+        "prstGeom:roundRect",
+        "prstGeom:ellipse",
+        "prstGeom:triangle",
+        "prstGeom:star5"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 36,
+      "section": "backgrounds",
+      "id": "atlas/backgrounds/09",
+      "features": [
+        "master:sp",
+        "layout:sp",
+        "bg:from-layout",
+        "prstGeom:roundRect",
+        "prstGeom:ellipse",
+        "prstGeom:triangle",
+        "prstGeom:star5"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 37,
+      "section": "backgrounds",
+      "id": "atlas/backgrounds/11",
+      "features": [
+        "ph:dt",
+        "ph:ftr",
+        "ph:sldNum",
+        "fld:slidenum",
+        "bg:gradFill:lin",
+        "prstGeom:roundRect",
+        "prstGeom:ellipse",
+        "prstGeom:triangle",
+        "prstGeom:star5"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 38,
+      "section": "fonts",
+      "id": "atlas/fonts/01",
+      "features": [
+        "font:cff",
+        "typeface:Source Sans 3",
+        "wrap:square",
+        "fontSize:12",
+        "fontSize:14",
+        "fontSize:18",
+        "fontSize:24",
+        "fontSize:36",
+        "fontSize:54"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": true
+    }
+  ],
+  "excluded": [
+    {
+      "feature": "svgIcon",
+      "reason": "not authorable with python-pptx/DrawingML in M1 — add via COM authoring later"
+    },
+    {
+      "feature": "smartArt",
+      "reason": "not authorable with python-pptx/DrawingML in M1 — add via COM authoring later"
+    },
+    {
+      "feature": "artisticEffects",
+      "reason": "not authorable with python-pptx/DrawingML in M1 — add via COM authoring later"
+    },
+    {
+      "feature": "3dModel",
+      "reason": "not authorable with python-pptx/DrawingML in M1 — add via COM authoring later"
+    },
+    {
+      "feature": "emoji",
+      "reason": "no OFL colour-emoji font in harness/fonts/fonts.lock.json, so PowerPoint would draw emoji in Segoe UI Emoji, a Microsoft font; only the --fonts windows build authors them"
+    }
+  ]
+}

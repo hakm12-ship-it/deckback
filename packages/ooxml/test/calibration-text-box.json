@@ -1,0 +1,44 @@
+{
+  "note": "The text box the baseline calibration (harness/fonts/baseline_calib.py) puts in its deck must be the writer's own, byte for byte (ruling M3-R37): packages/ooxml/test/text.test.ts checks that the writer writes `xml` for `box`, and harness/fonts/test_baseline_calib.py that the calibration does. Each run is black, opaque, with no spacing, rise or outline. The cases hold an italic run and a box of two runs whose last one differs in size, weight, slant, language and typefaces from the first, so that drift in the mark (a:endParaRPr, ruling M3-R37) fails both checks (ledger L145).",
+  "cases": [
+    {
+      "box": {
+        "id": 2,
+        "name": "Calibration 10 pt",
+        "frame": [609600, 762000, 9144000, 254000],
+        "runs": [{ "text": "Hxg 한글 Ágÿ", "sz": 1000, "b": false, "i": false, "latin": "Gothic A1", "ea": "고딕 A1", "cs": "Gothic A1" }]
+      },
+      "xml": "<p:sp><p:nvSpPr><p:cNvPr id=\"2\" name=\"Calibration 10 pt\"/><p:cNvSpPr txBox=\"1\"/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x=\"609600\" y=\"762000\"/><a:ext cx=\"9144000\" cy=\"254000\"/></a:xfrm><a:prstGeom prst=\"rect\"><a:avLst/></a:prstGeom><a:noFill/></p:spPr><p:txBody><a:bodyPr vert=\"horz\" wrap=\"none\" lIns=\"0\" tIns=\"0\" rIns=\"0\" bIns=\"0\" anchor=\"t\"><a:noAutofit/></a:bodyPr><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" sz=\"1000\" b=\"0\" i=\"0\" spc=\"0\" baseline=\"0\" dirty=\"0\"><a:solidFill><a:srgbClr val=\"000000\"/></a:solidFill><a:latin typeface=\"Gothic A1\"/><a:ea typeface=\"고딕 A1\"/><a:cs typeface=\"Gothic A1\"/></a:rPr><a:t>Hxg 한글 Ágÿ</a:t></a:r><a:endParaRPr lang=\"ko-KR\" sz=\"1000\" b=\"0\" i=\"0\" dirty=\"0\"><a:latin typeface=\"Gothic A1\"/><a:ea typeface=\"고딕 A1\"/><a:cs typeface=\"Gothic A1\"/></a:endParaRPr></a:p></p:txBody></p:sp>"
+    },
+    {
+      "box": {
+        "id": 3,
+        "name": "Calibration 36 pt",
+        "frame": [609600, 3302000, 9144000, 914400],
+        "runs": [{ "text": "Hx & g", "sz": 3600, "b": true, "i": false, "latin": "A&B Sans", "ea": "A&B Sans", "cs": "A&B Sans" }]
+      },
+      "xml": "<p:sp><p:nvSpPr><p:cNvPr id=\"3\" name=\"Calibration 36 pt\"/><p:cNvSpPr txBox=\"1\"/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x=\"609600\" y=\"3302000\"/><a:ext cx=\"9144000\" cy=\"914400\"/></a:xfrm><a:prstGeom prst=\"rect\"><a:avLst/></a:prstGeom><a:noFill/></p:spPr><p:txBody><a:bodyPr vert=\"horz\" wrap=\"none\" lIns=\"0\" tIns=\"0\" rIns=\"0\" bIns=\"0\" anchor=\"t\"><a:noAutofit/></a:bodyPr><a:lstStyle/><a:p><a:r><a:rPr lang=\"en-US\" sz=\"3600\" b=\"1\" i=\"0\" spc=\"0\" baseline=\"0\" dirty=\"0\"><a:solidFill><a:srgbClr val=\"000000\"/></a:solidFill><a:latin typeface=\"A&amp;B Sans\"/><a:ea typeface=\"A&amp;B Sans\"/><a:cs typeface=\"A&amp;B Sans\"/></a:rPr><a:t>Hx &amp; g</a:t></a:r><a:endParaRPr lang=\"en-US\" sz=\"3600\" b=\"1\" i=\"0\" dirty=\"0\"><a:latin typeface=\"A&amp;B Sans\"/><a:ea typeface=\"A&amp;B Sans\"/><a:cs typeface=\"A&amp;B Sans\"/></a:endParaRPr></a:p></p:txBody></p:sp>"
+    },
+    {
+      "box": {
+        "id": 4,
+        "name": "Calibration 18 pt italic",
+        "frame": [609600, 4572000, 9144000, 457200],
+        "runs": [{ "text": "Hxg 한글", "sz": 1800, "b": false, "i": true, "latin": "Gothic A1", "ea": "고딕 A1", "cs": "Gothic A1" }]
+      },
+      "xml": "<p:sp><p:nvSpPr><p:cNvPr id=\"4\" name=\"Calibration 18 pt italic\"/><p:cNvSpPr txBox=\"1\"/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x=\"609600\" y=\"4572000\"/><a:ext cx=\"9144000\" cy=\"457200\"/></a:xfrm><a:prstGeom prst=\"rect\"><a:avLst/></a:prstGeom><a:noFill/></p:spPr><p:txBody><a:bodyPr vert=\"horz\" wrap=\"none\" lIns=\"0\" tIns=\"0\" rIns=\"0\" bIns=\"0\" anchor=\"t\"><a:noAutofit/></a:bodyPr><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" sz=\"1800\" b=\"0\" i=\"1\" spc=\"0\" baseline=\"0\" dirty=\"0\"><a:solidFill><a:srgbClr val=\"000000\"/></a:solidFill><a:latin typeface=\"Gothic A1\"/><a:ea typeface=\"고딕 A1\"/><a:cs typeface=\"Gothic A1\"/></a:rPr><a:t>Hxg 한글</a:t></a:r><a:endParaRPr lang=\"ko-KR\" sz=\"1800\" b=\"0\" i=\"1\" dirty=\"0\"><a:latin typeface=\"Gothic A1\"/><a:ea typeface=\"고딕 A1\"/><a:cs typeface=\"Gothic A1\"/></a:endParaRPr></a:p></p:txBody></p:sp>"
+    },
+    {
+      "box": {
+        "id": 5,
+        "name": "Calibration 24 pt runs",
+        "frame": [609600, 5486400, 9144000, 609600],
+        "runs": [
+          { "text": "한글 ", "sz": 2400, "b": true, "i": false, "latin": "Gothic A1", "ea": "고딕 A1", "cs": "Gothic A1" },
+          { "text": "Hxg", "sz": 2000, "b": false, "i": true, "latin": "A&B Sans", "ea": "A&B Sans", "cs": "A&B Sans" }
+        ]
+      },
+      "xml": "<p:sp><p:nvSpPr><p:cNvPr id=\"5\" name=\"Calibration 24 pt runs\"/><p:cNvSpPr txBox=\"1\"/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x=\"609600\" y=\"5486400\"/><a:ext cx=\"9144000\" cy=\"609600\"/></a:xfrm><a:prstGeom prst=\"rect\"><a:avLst/></a:prstGeom><a:noFill/></p:spPr><p:txBody><a:bodyPr vert=\"horz\" wrap=\"none\" lIns=\"0\" tIns=\"0\" rIns=\"0\" bIns=\"0\" anchor=\"t\"><a:noAutofit/></a:bodyPr><a:lstStyle/><a:p><a:r><a:rPr lang=\"ko-KR\" sz=\"2400\" b=\"1\" i=\"0\" spc=\"0\" baseline=\"0\" dirty=\"0\"><a:solidFill><a:srgbClr val=\"000000\"/></a:solidFill><a:latin typeface=\"Gothic A1\"/><a:ea typeface=\"고딕 A1\"/><a:cs typeface=\"Gothic A1\"/></a:rPr><a:t>한글 </a:t></a:r><a:r><a:rPr lang=\"en-US\" sz=\"2000\" b=\"0\" i=\"1\" spc=\"0\" baseline=\"0\" dirty=\"0\"><a:solidFill><a:srgbClr val=\"000000\"/></a:solidFill><a:latin typeface=\"A&amp;B Sans\"/><a:ea typeface=\"A&amp;B Sans\"/><a:cs typeface=\"A&amp;B Sans\"/></a:rPr><a:t>Hxg</a:t></a:r><a:endParaRPr lang=\"en-US\" sz=\"2000\" b=\"0\" i=\"1\" dirty=\"0\"><a:latin typeface=\"A&amp;B Sans\"/><a:ea typeface=\"A&amp;B Sans\"/><a:cs typeface=\"A&amp;B Sans\"/></a:endParaRPr></a:p></p:txBody></p:sp>"
+    }
+  ]
+}

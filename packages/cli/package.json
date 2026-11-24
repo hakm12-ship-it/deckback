@@ -1,0 +1,37 @@
+{
+  "name": "deckback",
+  "version": "1.0.0",
+  "description": "Convert a PDF to an editable PowerPoint (PPTX) on your own computer. Nothing is uploaded.",
+  "keywords": ["pdf", "pptx", "powerpoint", "converter", "cli", "offline", "korean"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakm12-ship-it/deckback.git",
+    "directory": "packages/cli"
+  },
+  "type": "module",
+  "bin": {
+    "deckback": "dist/deckback.mjs"
+  },
+  "files": [
+    "dist/deckback.mjs",
+    "dist/cmaps",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "vite build",
+    "prepack": "vite build && node scripts/check-package.mjs"
+  },
+  "devDependencies": {
+    "@deckback/core": "*",
+    "@deckback/ooxml": "*",
+    "fflate": "0.8.3",
+    "pdfjs-dist": "6.5.438",
+    "vite": "^8.3.5"
+  }
+}

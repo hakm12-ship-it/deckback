@@ -1,0 +1,82 @@
+{
+  "deck": "probe",
+  "fonts": "ofl",
+  "slideSize": [
+    960,
+    540
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "m0",
+      "id": "probe/m0/01",
+      "features": [
+        "typeface:Gothic A1",
+        "typeface:Pretendard",
+        "rPr:b",
+        "buChar",
+        "marL+indent",
+        "text:solidFill:srgb",
+        "txBody:in-shape",
+        "cxnSp:straightConnector1",
+        "cxnSp:line",
+        "lineEnd:triangle:med",
+        "prstDash:dash",
+        "prstGeom:rect",
+        "prstGeom:roundRect",
+        "prstGeom:ellipse",
+        "prstGeom:rightArrow",
+        "prstGeom:chevron",
+        "prstGeom:straightConnector1",
+        "prstGeom:line"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    },
+    {
+      "n": 2,
+      "section": "m0",
+      "id": "probe/m0/02",
+      "features": [
+        "typeface:Gothic A1",
+        "typeface:Pretendard",
+        "gradFill:lin:90",
+        "gradFill:scaled",
+        "alpha:50",
+        "tbl",
+        "tbl:styleId",
+        "tbl:firstRow",
+        "tbl:bandRow",
+        "pic",
+        "pic:png:rgb",
+        "grpSp",
+        "prstGeom:rect",
+        "prstGeom:ellipse",
+        "prstGeom:triangle"
+      ],
+      "hidden": false,
+      "smoke": false,
+      "knownBitmapText": false
+    },
+    {
+      "n": 3,
+      "section": "m0",
+      "id": "probe/m0/03",
+      "features": [
+        "typeface:Gothic A1",
+        "chart:barChart",
+        "chart:barDir:col",
+        "chart:grouping:clustered",
+        "chart:legend",
+        "chart:gridlines",
+        "chart:korean-categories",
+        "chart:fonts"
+      ],
+      "hidden": false,
+      "smoke": true,
+      "knownBitmapText": false
+    }
+  ],
+  "excluded": []
+}

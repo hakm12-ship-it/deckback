@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>skia: images</title>
+<style>
+@page { size: 1280px 720px; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; background: #fff }
+body { padding: 12px 18px; font: 13px/1.25 "Segoe UI", "Malgun Gothic", sans-serif; color: #222 }
+h1 { margin: 0 0 4px; font-size: 20px }
+h2 { margin: 8px 0 4px; font-size: 12px; font-weight: 600; color: #777 }
+.row { display: flex; gap: 14px; align-items: flex-start }
+.cell { position: relative; width: 150px; height: 140px; display: flex; align-items: center; justify-content: center }
+.chk { background: conic-gradient(#cfd8dc 25%, #fff 0 50%, #cfd8dc 0 75%, #fff 0) 0 0 / 20px 20px }
+.cap { position: absolute; left: 3px; bottom: 3px; padding: 1px 5px; border-radius: 3px; background: #000c; color: #fff; font-size: 11px }
+img { display: block }
+.px { image-rendering: pixelated }
+.rot { transform: rotate(20deg) }
+.half { opacity: .5 }
+.round { border-radius: 50%; border: 4px solid #1d3557 }
+.skew { transform: skew(-16deg, 4deg) }
+.gray { filter: grayscale(1) }
+.cover { width: 142px; height: 132px; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg==") center / cover no-repeat }
+.cover.j { background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q==") }
+.emoji { font-family: "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; white-space: nowrap }
+.e1 { font-size: 14px }
+.e2 { font-size: 32px }
+.e3 { font-size: 64px }
+.e4 { font-size: 96px; line-height: 1.1 }
+.e5 { font: 28px "Malgun Gothic", "Segoe UI Emoji", sans-serif }
+.e6 { font-size: 48px; opacity: .5 }
+.e7 { font-size: 48px; transform: rotate(-14deg); display: inline-block }
+.e8 { font-size: 48px; color: #e63946; -webkit-text-stroke: 1px #222 }
+</style>
+</head>
+<body>
+<h1>Images and emoji</h1>
+
+<h2>PNG with alpha (16 x 16, data URI)</h2>
+<div class="row">
+  <div class="cell chk"><img width="16" height="16" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg=="><span class="cap">16px</span></div>
+  <div class="cell chk"><img width="128" height="128" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg=="><span class="cap">128px smooth</span></div>
+  <div class="cell chk"><img class="px" width="128" height="128" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg=="><span class="cap">128px pixelated</span></div>
+  <div class="cell chk"><img class="rot" width="96" height="96" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg=="><span class="cap">rotate 20</span></div>
+  <div class="cell chk"><img class="half" width="128" height="128" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg=="><span class="cap">opacity .5</span></div>
+  <div class="cell chk"><img class="round" width="120" height="120" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg=="><span class="cap">round + border</span></div>
+  <div class="cell chk"><div class="cover"></div><span class="cap">bg cover</span></div>
+  <div class="cell chk"><img class="skew" width="96" height="96" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAjklEQVR42pVTyRGAMAhEh4JSQErwwdtmnFgRpVCAxfjxgRgOdyaPsLsESLJcfYcIWz9DHiexBjFEb9bETM9yNegQNEkEAMBKK7qCyAwO12Yz0ILDcENp2JuBZ/ZirwQEdVBWQRk6Af/wpTMYxdjnFlj1N7LTdQVSbIXtk0YTaEZITlLxWhDzKjn7TJgJMtwQ9xp7yp3LnQAAAABJRU5ErkJggg=="><span class="cap">skew</span></div>
+</div>
+
+<h2>JPEG (24 x 24, data URI)</h2>
+<div class="row">
+  <div class="cell chk"><img width="24" height="24" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q=="><span class="cap">24px</span></div>
+  <div class="cell chk"><img width="128" height="128" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q=="><span class="cap">128px smooth</span></div>
+  <div class="cell chk"><img class="px" width="128" height="128" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q=="><span class="cap">128px pixelated</span></div>
+  <div class="cell chk"><img class="rot" width="96" height="96" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q=="><span class="cap">rotate 20</span></div>
+  <div class="cell chk"><img class="half" width="128" height="128" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q=="><span class="cap">opacity .5</span></div>
+  <div class="cell chk"><img class="round" width="120" height="120" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q=="><span class="cap">round + border</span></div>
+  <div class="cell chk"><div class="cover j"></div><span class="cap">bg cover</span></div>
+  <div class="cell chk"><img class="gray" width="128" height="128" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMFBgIH/8QAJxAAAAUEAAQHAAAAAAAAAAAAAAEDBAUCESExIjJxoQYHFEFh0uL/xAAZAQABBQAAAAAAAAAAAAAAAAAGAQIDBAX/xAAgEQACAgEDBQAAAAAAAAAAAAABAgADBBITcRQyQWGR/9oADAMBAAIRAxEAPwCVu71kVi69/MOMUvptUXZQUSUlNFyNkD6n+hFU9ljn2y5t0fV0pmSdF+EytVvi+T9wi4unxMvCxduett3esgMElL+LS5I5ofWovuAb0XqEtVYC9p+GZ5u71kdEveebKX0mZdqgAFF1agLyJTxkUBeRNK3d6yAAJtlIaU1ron//2Q=="><span class="cap">filter grayscale</span></div>
+</div>
+
+<h2>emoji</h2>
+<div class="row">
+  <div>
+    <div class="emoji e1">😀 😍 🎉 👍 🇰🇷 👨‍👩‍👧 ❤️ ⭐ 🚀 (14 px)</div>
+    <div class="emoji e2">😀 😍 🎉 👍🏽 🇰🇷 👨‍👩‍👧 ❤️ ⭐ 🚀</div>
+    <div class="emoji e5">한글과 Latin 사이의 이모지 😀🎉 here 👍🏽 and 🇰🇷</div>
+  </div>
+  <div class="emoji e4">😀🎉</div>
+  <div>
+    <div class="emoji e3">👍🏽🚀⭐</div>
+    <div class="emoji e6">🙂 50%</div>
+    <div class="emoji e7">🎉</div>
+    <div class="emoji e8">❤️★</div>
+  </div>
+</div>
+</body>
+</html>

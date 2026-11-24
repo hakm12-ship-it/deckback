@@ -1,0 +1,23 @@
+{
+  "schema": "deckback.export-stamp/1",
+  "pptx": {
+    "file": "atlas-smoke.pptx",
+    "sha256": "ec2a845ae2eb45d5a4b1ec9fda2ade1bb4bc1118272f47c09c3532e16912c47f"
+  },
+  "manifest": {
+    "file": "atlas-smoke.manifest.json",
+    "sha256": "2f7b0fb129bf35a60838162a40f688b9e8cf3b2d97f6557fd55802734c9cec8f"
+  },
+  "variants": {
+    "notags": {
+      "file": "atlas-smoke_notags.pdf",
+      "sha256": "23b32686468ad132410139bb1c5cde02380590f4f2f856e12b3461428765027b",
+      "powerpoint": null
+    },
+    "std": {
+      "file": "atlas-smoke_std.pdf",
+      "sha256": "a5efce04999977a26c7064e14816c6f5f468c4edd4a494d373e16d5a246e2044",
+      "powerpoint": null
+    }
+  }
+}

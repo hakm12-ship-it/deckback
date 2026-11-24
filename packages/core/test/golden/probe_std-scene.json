@@ -1,0 +1,35 @@
+{
+  "1": {
+    "sha256": "86310bbbed7543cce2702f4da11456314397fb69a016e34fb07564fef54a88fd",
+    "elements": {
+      "shape": 10,
+      "textline": 29,
+      "picture": 0,
+      "fallback": 0,
+      "hotspot": 0
+    }
+  },
+  "2": {
+    "sha256": "fc2d8a2f676d249cedb002b8e007909a14038826b63f02fc93034bc35896215d",
+    "elements": {
+      "shape": 27,
+      "textline": 17,
+      "picture": 1,
+      "fallback": 0,
+      "hotspot": 0
+    }
+  },
+  "3": {
+    "sha256": "c802673514adfce5229f999776df4b9ddd696ebb8bebb9a1239c7d012c206273",
+    "elements": {
+      "shape": 11,
+      "textline": 23,
+      "picture": 0,
+      "fallback": 0,
+      "hotspot": 0
+    }
+  },
+  "deck": {
+    "sha256": "fb52db2937c3a4de5ea952649e89b6e4e5e13852d21739667460da910f586c24"
+  }
+}

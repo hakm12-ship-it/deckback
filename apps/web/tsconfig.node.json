@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
+    "outDir": "node_modules/.tmp/tsc/node"
+  },
+  "include": [
+    "vite.config.ts",
+    "playwright.config.ts",
+    "e2e",
+    "test",
+    "src/protocol.ts",
+    "src/precache.ts",
+    "src/sw-manifest.ts",
+    "src/serve.ts",
+    "src/app.ts",
+    "src/i18n.ts",
+    "src/report-panel.ts",
+    "src/fonts-check.ts",
+    "src/make-worker.ts"
+  ],
+  "references": [{ "path": "../../packages/core/tsconfig.src.json" }, { "path": "../../packages/core/tsconfig.test.json" }]
+}

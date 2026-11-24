@@ -1,0 +1,122 @@
+{
+  "files": [
+    {
+      "path": "atlas-smoke.export.json",
+      "sha256": "bae177e7675a9199972d077cf4d992d830c22eb92f8039adc7fe9e8641824358",
+      "bytes": 673,
+      "pages": null
+    },
+    {
+      "path": "atlas-smoke.manifest.json",
+      "sha256": "2f7b0fb129bf35a60838162a40f688b9e8cf3b2d97f6557fd55802734c9cec8f",
+      "bytes": 16196,
+      "pages": null
+    },
+    {
+      "path": "atlas-smoke.pptx",
+      "sha256": "ec2a845ae2eb45d5a4b1ec9fda2ade1bb4bc1118272f47c09c3532e16912c47f",
+      "bytes": 147600,
+      "pages": null
+    },
+    {
+      "path": "atlas-smoke_notags.pdf",
+      "sha256": "23b32686468ad132410139bb1c5cde02380590f4f2f856e12b3461428765027b",
+      "bytes": 990876,
+      "pages": 38
+    },
+    {
+      "path": "atlas-smoke_std.pdf",
+      "sha256": "a5efce04999977a26c7064e14816c6f5f468c4edd4a494d373e16d5a246e2044",
+      "bytes": 1086990,
+      "pages": 38
+    },
+    {
+      "path": "fallback/blend-multiply.pdf",
+      "sha256": "47363bab0677417afc57d5b7ad3f945e4f0ce6b7dd85ba3743445e68fac40421",
+      "bytes": 912,
+      "pages": 1
+    },
+    {
+      "path": "fallback/function-shading.pdf",
+      "sha256": "a675f6efc04ef5928f55da4f9f3ed24d431bafc5c10d5f6b744074a086633d58",
+      "bytes": 1020,
+      "pages": 1
+    },
+    {
+      "path": "fallback/mesh-type4.pdf",
+      "sha256": "e8162a24cf33ec971390cd3ff3619cc04209e35ddeb4f99ff367001211790976",
+      "bytes": 1011,
+      "pages": 1
+    },
+    {
+      "path": "fallback/softmask-image.pdf",
+      "sha256": "de24545967a7d4dec30964936b7f9c0ab307ccdbf0c37a77513908dc094c55da",
+      "bytes": 19651,
+      "pages": 1
+    },
+    {
+      "path": "probe.export.json",
+      "sha256": "fc6634bda6936c1f49bcc19cbe424b18440c756c35234b52702fcadb8e168b54",
+      "bytes": 649,
+      "pages": null
+    },
+    {
+      "path": "probe.manifest.json",
+      "sha256": "b4b8574475f4ddd6ebc2bd52ef2bf966216980cb87aaf678d6ca55e5647923f0",
+      "bytes": 1740,
+      "pages": null
+    },
+    {
+      "path": "probe.pptx",
+      "sha256": "c3e3b91cf596878b7a92776ed390337b69fad53b178f8efd821f473d4c23c622",
+      "bytes": 41116,
+      "pages": null
+    },
+    {
+      "path": "probe_gt/map.json",
+      "sha256": "0ab6aea764ba5460638581b6800f59ec2111167df0ff99cfd785ffa9d8b96d77",
+      "bytes": 56,
+      "pages": null
+    },
+    {
+      "path": "probe_gt/slide1.png",
+      "sha256": "7ef656e644d1d7ebf95ef8e45dbff359b359b822f0e657b5294f9f9a09c75916",
+      "bytes": 58206,
+      "pages": null
+    },
+    {
+      "path": "probe_gt/slide2.png",
+      "sha256": "82fb382c1a2339c9cb877ae795e5e919bf6b69d9037544d50a7fb58560cc6813",
+      "bytes": 93334,
+      "pages": null
+    },
+    {
+      "path": "probe_gt/slide3.png",
+      "sha256": "c679d9ed2bd878e1813267d09fb1365f3f192ae83f2545825368f0fc8f72cdc2",
+      "bytes": 51805,
+      "pages": null
+    },
+    {
+      "path": "probe_notags.pdf",
+      "sha256": "1fc8d057df5c5b246c98f7eb20700b86d4501c55fd69a3c2cbeeaf9bfe21e21b",
+      "bytes": 80046,
+      "pages": 3
+    },
+    {
+      "path": "probe_std.pdf",
+      "sha256": "367540010e6b6322c0b98e4ace286d4e1a69e05c6ceade73b20029cc4d66045e",
+      "bytes": 85784,
+      "pages": 3
+    }
+  ],
+  "fonts": [
+    "Gothic A1",
+    "Gowun Batang",
+    "NanumGothic",
+    "NanumGothicExtraBold",
+    "Pretendard",
+    "Pretendard Black",
+    "Pretendard Light"
+  ],
+  "dropped": []
+}

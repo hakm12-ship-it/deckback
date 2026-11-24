@@ -1,0 +1,32 @@
+# Cloudflare Pages headers (https://developers.cloudflare.com/pages/configuration/headers/).
+# The e2e (apps/web/e2e/pages-server.ts) applies this file as Pages does, and checks it with a real conversion.
+#
+# Content-Security-Policy: nothing runs or loads from anywhere but this site, but for Cloudflare Web Analytics' beacon
+# (page views, no cookies; present only in a build made with VITE_CF_BEACON_TOKEN).
+# - script-src has no 'unsafe-inline' and no 'unsafe-eval': the page has no inline script.
+# - 'wasm-unsafe-eval' is there for one thing: pdf.js compiles a PostScript calculator function (a Type 4 function, in a
+#   gradient or a tint) to WebAssembly from bytes it makes itself (`new WebAssembly.Module`), in the conversion worker. It
+#   permits compiling WebAssembly only, not eval of a string, and loads no file. Without it that call is blocked and pdf.js
+#   computes the function another way, which need not give Node's last digit (the e2e's type4.pdf fails without it, in the
+#   worker: site-hardening.spec.ts). Our pdf.js build still fetches no .wasm: its JPX, JBIG2 and ICC decoders need a wasmUrl,
+#   which the worker does not set, so such an image is a fallback in Node and in the browser alike (the e2e's JPX deck).
+# - worker-src 'self' is enough: the conversion worker is a module worker from /assets, pdf.js runs inside it, and the
+#   service worker is /sw.js. There is no blob: source (the download is an <a download> to a blob URL: not a load).
+# - base-uri, form-action and frame-ancestors do not fall back to default-src, so they are set on their own.
+#
+# Until M9 the preview is not for search engines (X-Robots-Tag).
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; worker-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
+  X-Robots-Tag: noindex
+  Referrer-Policy: no-referrer
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), publickey-credentials-get=(), usb=(), clipboard-read=(), clipboard-write=()
+
+# File names carry a content hash, so they never change.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# A new build must reach the browser at once: the service worker is checked on every visit.
+/sw.js
+  Cache-Control: no-cache

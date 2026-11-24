@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+# The generated test corpus (corpus/generated/): never touch these bytes, their hashes are in manifest.json.
+*.pdf binary
+*.pptx binary
+*.png binary

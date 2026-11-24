@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="PDF를 고칠 수 있는 PowerPoint(PPTX)로 바꿔요. 파일은 브라우저 밖으로 나가지 않아요." />
+    <title>deckback — PDF를 PowerPoint로</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="top">
+      <span class="brand"><span class="mark" aria-hidden="true"></span>deckback</span>
+      <button type="button" id="lang" class="lang" lang="en">English</button>
+    </header>
+
+    <main class="page">
+      <section class="intro">
+        <h1 data-i18n="intro.title">PDF를 고칠 수 있는 PowerPoint로</h1>
+        <p class="lead" data-i18n="intro.lead">글상자, 도형, 그림을 고칠 수 있게 살려 PPTX로 바꿔요.</p>
+      </section>
+
+      <section id="drop" class="drop" aria-labelledby="drop-title">
+        <p id="drop-title" class="drop-title">PDF를 여기에 끌어다 놓으세요</p>
+        <p class="drop-or" data-i18n="drop.or">또는</p>
+        <button type="button" id="choose" class="button primary" data-i18n="drop.choose">PDF 고르기</button>
+        <input type="file" id="file" class="visually-hidden" accept="application/pdf,.pdf" tabindex="-1" aria-hidden="true" />
+      </section>
+
+      <section id="progress" class="progress" hidden>
+        <p id="progress-text" class="progress-text"></p>
+        <progress id="progress-bar" class="progress-bar"></progress>
+        <button type="button" id="cancel" class="button" data-i18n="cancel">취소</button>
+      </section>
+
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+      <div id="progress-live" class="visually-hidden" aria-live="polite"></div>
+
+      <section id="outcome" class="outcome" aria-labelledby="outcome-title" hidden>
+        <h2 id="outcome-title" tabindex="-1" data-i18n="done.title">변환을 마쳤어요</h2>
+        <p class="download-row">
+          <a id="download" class="button primary" data-i18n="done.download">PPTX 내려받기</a>
+          <span id="download-name" class="file-name"></span>
+        </p>
+        <div id="report"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p data-i18n="footer.privacy">파일은 브라우저 밖으로 나가지 않아요. 변환은 모두 이 기기 안에서 이뤄져요.</p>
+      <div class="foot-version">deckback 1.0.0</div>
+    </footer>
+    <noscript><p class="noscript">이 페이지는 자바스크립트가 켜져 있어야 변환할 수 있어요. (JavaScript is needed to convert.)</p></noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

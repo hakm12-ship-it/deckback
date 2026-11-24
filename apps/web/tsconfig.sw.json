@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "WebWorker"],
+    "types": [],
+    "emitDeclarationOnly": true,
+    "outDir": "node_modules/.tmp/tsc/sw"
+  },
+  "include": ["src/sw.ts", "src/sw-manifest.ts"]
+}

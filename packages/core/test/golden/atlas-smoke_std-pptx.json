@@ -1,0 +1,2516 @@
+{
+  "sha256": "e97ea94728f48d0dee0bcdd2f5a8fff7a7f4b857ced2949df1644fb502436a15",
+  "report": "ba3c70af87d70f266434a9fedae7ffbc389ecf1b7c9b53fbc3a1d0469a8afd1d",
+  "slides": {
+    "1": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 9,
+        "rects": 1,
+        "lines": 2,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 130,
+          "slide characters": 130,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 22,
+          "slide paints": 22,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 26,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 130,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "2": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 11,
+        "rects": 4,
+        "lines": 2,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 182,
+          "slide characters": 182,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 17,
+          "slide paints": 17,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 31,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 182,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "3": {
+      "counts": {
+        "textBoxes": 9,
+        "freeforms": 8,
+        "rects": 2,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 98,
+          "slide characters": 98,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 19,
+          "slide paints": 19,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 19,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 4,
+          "wrong names": 0,
+          "characters compared": 98,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "4": {
+      "counts": {
+        "textBoxes": 13,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 11,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 105,
+          "slide characters": 105,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 11,
+          "slide paints": 11,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 24,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 105,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "5": {
+      "counts": {
+        "textBoxes": 26,
+        "freeforms": 15,
+        "rects": 0,
+        "lines": 3,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 99,
+          "slide characters": 99,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 18,
+          "slide paints": 18,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 44,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 99,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "6": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 12,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 318,
+          "slide characters": 318,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 12,
+          "slide paints": 12,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 26,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 318,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "7": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 0,
+        "rects": 12,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 180,
+          "slide characters": 180,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 24,
+          "slide paints": 24,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 26,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 180,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "8": {
+      "counts": {
+        "textBoxes": 12,
+        "freeforms": 0,
+        "rects": 70,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 181,
+          "slide characters": 181,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 80,
+          "slide paints": 80,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 82,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 181,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "9": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 2,
+        "rects": 10,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 12,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 179,
+          "slide characters": 179,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 12,
+          "slide paints": 12,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 12,
+          "gradients": 12,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 26,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 179,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "10": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 0,
+        "rects": 12,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 81,
+          "slide characters": 81,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 12,
+          "slide paints": 12,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 12,
+          "pattern fills": 12,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 26,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 81,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "11": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 13,
+        "rects": 5,
+        "lines": 0,
+        "pictures": 6,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 12,
+          "image paints": 12,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 199,
+          "slide characters": 199,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 12,
+          "slide paints": 12,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 38,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 199,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "12": {
+      "counts": {
+        "textBoxes": 8,
+        "freeforms": 12,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 6,
+          "image paints": 6,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 110,
+          "slide characters": 110,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 12,
+          "slide paints": 12,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 20,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 110,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "13": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 8,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 8,
+          "image paints": 8,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 112,
+          "slide characters": 112,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 22,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 112,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "14": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 12,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 12,
+          "image paints": 12,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 247,
+          "slide characters": 247,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 26,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 247,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "15": {
+      "counts": {
+        "textBoxes": 14,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 149,
+          "slide characters": 149,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 14,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 149,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "16": {
+      "counts": {
+        "textBoxes": 15,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 151,
+          "slide characters": 151,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 15,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 151,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "17": {
+      "counts": {
+        "textBoxes": 2,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 364,
+          "slide characters": 364,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 2,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 10,
+          "wrong names": 0,
+          "characters compared": 364,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "18": {
+      "counts": {
+        "textBoxes": 10,
+        "freeforms": 0,
+        "rects": 4,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 171,
+          "slide characters": 171,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 4,
+          "slide paints": 4,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 14,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 171,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "19": {
+      "counts": {
+        "textBoxes": 13,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 261,
+          "slide characters": 261,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 13,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 261,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "20": {
+      "counts": {
+        "textBoxes": 38,
+        "freeforms": 0,
+        "rects": 5,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 434,
+          "slide characters": 434,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 5,
+          "slide paints": 5,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 43,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 434,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "21": {
+      "counts": {
+        "textBoxes": 12,
+        "freeforms": 0,
+        "rects": 4,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 135,
+          "slide characters": 135,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 4,
+          "slide paints": 4,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 16,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 135,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "22": {
+      "counts": {
+        "textBoxes": 6,
+        "freeforms": 0,
+        "rects": 2,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 805,
+          "slide characters": 805,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 2,
+          "slide paints": 2,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 8,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 4,
+          "wrong names": 0,
+          "characters compared": 805,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "23": {
+      "counts": {
+        "textBoxes": 18,
+        "freeforms": 0,
+        "rects": 1,
+        "lines": 0,
+        "pictures": 1,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 1,
+          "image paints": 1,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 197,
+          "slide characters": 197,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 1,
+          "slide paints": 1,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 20,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 197,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "24": {
+      "counts": {
+        "textBoxes": 19,
+        "freeforms": 10,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 162,
+          "slide characters": 162,
+          "character problems": 0,
+          "invisible characters": 55
+        },
+        "S3": {
+          "pdf drawings": 10,
+          "slide paints": 10,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 29,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 162,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "25": {
+      "counts": {
+        "textBoxes": 20,
+        "freeforms": 12,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 12,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 12,
+          "image paints": 12,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 157,
+          "slide characters": 157,
+          "character problems": 0,
+          "invisible characters": 66
+        },
+        "S3": {
+          "pdf drawings": 12,
+          "slide paints": 12,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 44,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 157,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "26": {
+      "counts": {
+        "textBoxes": 32,
+        "freeforms": 0,
+        "rects": 30,
+        "lines": 13,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 126,
+          "slide characters": 126,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 43,
+          "slide paints": 43,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 75,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 126,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "27": {
+      "counts": {
+        "textBoxes": 32,
+        "freeforms": 0,
+        "rects": 30,
+        "lines": 17,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 125,
+          "slide characters": 125,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 47,
+          "slide paints": 47,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 79,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 125,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "28": {
+      "counts": {
+        "textBoxes": 36,
+        "freeforms": 0,
+        "rects": 18,
+        "lines": 23,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 140,
+          "slide characters": 140,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 41,
+          "slide paints": 41,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 1,
+          "split pieces": 30,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 77,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 140,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "29": {
+      "counts": {
+        "textBoxes": 30,
+        "freeforms": 0,
+        "rects": 12,
+        "lines": 29,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 95,
+          "slide characters": 95,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 41,
+          "slide paints": 41,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 1,
+          "split pieces": 32,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 71,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 4,
+          "wrong names": 0,
+          "characters compared": 95,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "30": {
+      "counts": {
+        "textBoxes": 28,
+        "freeforms": 29,
+        "rects": 13,
+        "lines": 33,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 101,
+          "slide characters": 101,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 114,
+          "slide paints": 114,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 1,
+          "split pieces": 25,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 103,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 101,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "31": {
+      "counts": {
+        "textBoxes": 18,
+        "freeforms": 5,
+        "rects": 5,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 76,
+          "slide characters": 76,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 10,
+          "slide paints": 10,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 1,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 28,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 76,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "32": {
+      "counts": {
+        "textBoxes": 6,
+        "freeforms": 0,
+        "rects": 8,
+        "lines": 0,
+        "pictures": 4,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 4,
+          "image paints": 4,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 105,
+          "slide characters": 105,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 8,
+          "slide paints": 8,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 18,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 105,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "33": {
+      "counts": {
+        "textBoxes": 8,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 6,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 6,
+          "image paints": 6,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 72,
+          "slide characters": 72,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 14,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 72,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "34": {
+      "counts": {
+        "textBoxes": 8,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 6,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 6,
+          "image paints": 6,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 106,
+          "slide characters": 106,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 14,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 106,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "35": {
+      "counts": {
+        "textBoxes": 5,
+        "freeforms": 4,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 87,
+          "slide characters": 87,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 8,
+          "slide paints": 8,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 9,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 87,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "36": {
+      "counts": {
+        "textBoxes": 6,
+        "freeforms": 4,
+        "rects": 3,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 1,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 109,
+          "slide characters": 109,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 10,
+          "slide paints": 10,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 1,
+          "gradients": 1,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 13,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 109,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "37": {
+      "counts": {
+        "textBoxes": 9,
+        "freeforms": 4,
+        "rects": 1,
+        "lines": 0,
+        "pictures": 0,
+        "gradients": 1,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 0,
+          "image paints": 0,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 127,
+          "slide characters": 127,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 8,
+          "slide paints": 8,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 1,
+          "gradients": 1,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 14,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 127,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    },
+    "38": {
+      "counts": {
+        "textBoxes": 8,
+        "freeforms": 0,
+        "rects": 0,
+        "lines": 0,
+        "pictures": 11,
+        "gradients": 0,
+        "hotspots": 0,
+        "runLinks": 0,
+        "fallbacks": 0
+      },
+      "S1": "pass",
+      "S2": "pass",
+      "S3": "pass",
+      "S4": "pass",
+      "S5": "pass",
+      "S6": "pass",
+      "checks": {
+        "S1": {
+          "pictures": 11,
+          "image paints": 11,
+          "problems": 0
+        },
+        "S2": {
+          "pdf characters": 96,
+          "slide characters": 96,
+          "character problems": 0
+        },
+        "S3": {
+          "pdf drawings": 0,
+          "slide paints": 0,
+          "unmatched pdf": 0,
+          "unmatched slide": 0,
+          "mismatches": 0,
+          "shadings": 0,
+          "gradients": 0,
+          "patterns": 0,
+          "pattern fills": 0,
+          "preset shapes": 0,
+          "invisible paints": 0,
+          "split pieces": 0,
+          "text gradients": 0,
+          "problems": 0
+        },
+        "S4": {
+          "shapes": 19,
+          "pairs out of order": 0
+        },
+        "S5": {
+          "slides": 38,
+          "pages": 38,
+          "problems": 0
+        },
+        "S6": {
+          "typefaces": 3,
+          "wrong names": 0,
+          "characters compared": 96,
+          "characters skipped": 0,
+          "mismatches": 0,
+          "missing typefaces": 0,
+          "fonts not embedded": 0,
+          "spaceless names": 0
+        }
+      }
+    }
+  }
+}

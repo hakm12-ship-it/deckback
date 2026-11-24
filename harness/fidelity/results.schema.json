@@ -1,0 +1,494 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "deckback.fidelity/1",
+  "title": "deckback fidelity results",
+  "description": "What `npm run fidelity` (harness/fidelity/run.py) measured: per deck x variant and per slide the V1/V2 pixel gates, the S1-S7 structural checks, the renderer noise floor (M1-R33/R57) and the known-unrecoverable classes (M1-R56); spec section 5. Private decks appear as sha256(file bytes)[:12] only, in the deck records, the noise floor and heatmap paths; a private PDF that could not be read is only counted (summary.privateUnreadable); no file name, path or raw tool message appears anywhere (M1-R55, M1-R58, M1-R62). A slide passes only when every gate passed: V1 null (no source PPTX) does not count against it, but an S check that is n/a or failed does.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "converter", "date", "runtimeSeconds", "options", "env", "decks", "summary"],
+  "properties": {
+    "schema": {"const": "deckback.fidelity/1"},
+    "converter": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,40}$"},
+    "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "runtimeSeconds": {"type": "number", "minimum": 0},
+    "options": {"$ref": "#/$defs/options"},
+    "env": {"$ref": "#/$defs/env"},
+    "decks": {"type": "array", "items": {"$ref": "#/$defs/deck"}},
+    "summary": {"$ref": "#/$defs/summary"}
+  },
+  "$defs": {
+    "text": {"type": "string", "maxLength": 300},
+    "token": {"type": "string", "pattern": "^[a-z][a-z-]{0,40}$"},
+    "count": {"type": "integer", "minimum": 0},
+    "fraction": {"type": "number", "minimum": 0, "maximum": 1},
+    "deckId": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"},
+    "privateId": {"type": "string", "pattern": "^[0-9a-f]{12}$"},
+    "exitCode": {"enum": [0, 2, 3, null]},
+    "relPng": {
+      "description": "a heatmap path relative to out/fidelity: ids and file names only, forward slashes, no drive, no ..",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*(/[A-Za-z0-9][A-Za-z0-9._-]*)*\\.png$"
+    },
+    "privatePng": {
+      "description": "a private deck's heatmap path: <12-hex id>/pdf/v1|v2-slide<N>.png",
+      "type": "string",
+      "pattern": "^[0-9a-f]{12}/pdf/v[12]-slide[1-9][0-9]*\\.png$"
+    },
+    "options": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decks", "variants", "s7", "limitSlides"],
+      "properties": {
+        "decks": {"type": "array", "uniqueItems": true, "items": {"enum": ["public", "atlas", "private", "tier-c", "real"]}},
+        "variants": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9]{1,20}$"}},
+        "s7": {"type": "boolean"},
+        "limitSlides": {"type": ["integer", "null"], "minimum": 1},
+        "ids": {"description": "M8: --ids picked this many decks of the sets asked for (the deck records name them)", "$ref": "#/$defs/count"},
+        "offBarStructural": {"description": "ruling M8-R1: real decks off the bar got S1-S6 only, with no renders (render and groundTruth reason off-bar, V2 not measured)", "const": true},
+        "barOnly": {"description": "M8 round 1c: the real decks off the bar were left out of the run (their crash and repair checks were an earlier round's)", "const": true},
+        "merged": {"description": "M8 triage.py merge: the real deck ids taken from a re-measure (--ids) of the same run", "type": "array", "items": {"$ref": "#/$defs/deckId"}},
+        "commercialMissing": {"description": "M8 triage.py fonts: the commercial font families the measuring PC cannot have (spec 5.5); a slide that uses one is judged by S1-S7 only", "type": "array", "items": {"type": "string", "maxLength": 120}},
+        "recheck": {
+          "description": "M8 triage.py recheck: S1-S6 of the bar slides were computed again from the stored PDFs and outputs (S7 and the renders are the run's); skipped: bar decks whose output was gone",
+          "type": "object", "additionalProperties": false, "required": ["structural", "skipped"],
+          "properties": {"structural": {"const": "S1-S6"}, "skipped": {"type": "array", "items": {"$ref": "#/$defs/deckId"}}}
+        },
+        "cloudFonts": {
+          "description": "ruling M8-R2: the names (never files) in the Office cloud font folder when the round began, from harness/fonts/cloudfonts.py: the fonts PowerPoint had downloaded by itself, which count as obtainable and are never installed a second time",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["count", "names"],
+          "properties": {"count": {"$ref": "#/$defs/count"},
+                         "names": {"type": "array", "items": {"type": "string", "maxLength": 120}}}
+        },
+        "rescore": {
+          "description": "ruling M5-R3: present when the file was made by harness/fidelity/rescore.py from an earlier results file: that file (repo-relative path, sha256), the S7 side input (path, sha256, the date of its round trip), and the converter commit of the renders, null with a note when the source results do not record it",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["source", "s7", "converterCommit", "note"],
+          "properties": {
+            "source": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+                       "properties": {"path": {"type": "string", "maxLength": 200}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}},
+            "s7": {"anyOf": [{"type": "null"}, {"type": "object", "additionalProperties": false, "required": ["path", "sha256", "date"],
+                       "properties": {"path": {"type": "string", "maxLength": 200}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+                                      "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}}}]},
+            "converterCommit": {"anyOf": [{"type": "null"}, {"type": "string", "pattern": "^[0-9a-f]{7,40}$"}]},
+            "note": {"$ref": "#/$defs/text"}
+          }
+        }
+      }
+    },
+    "env": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["powerpoint", "pymupdf", "python", "node"],
+      "properties": {
+        "powerpoint": {"type": ["string", "null"], "pattern": "^[0-9][0-9.]{0,40}$"},
+        "pymupdf": {"type": ["string", "null"], "pattern": "^[0-9A-Za-z .()-]{1,60}$"},
+        "python": {"type": ["string", "null"], "pattern": "^[0-9][0-9A-Za-z.+-]{0,30}$"},
+        "node": {"type": ["string", "null"], "pattern": "^v?[0-9][0-9.]{0,30}$"}
+      }
+    },
+    "gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "detail"],
+      "properties": {
+        "status": {"enum": ["pass", "fail", "n/a"]},
+        "detail": {"$ref": "#/$defs/text"}
+      }
+    },
+    "visualError": {
+      "description": "the gate could not be computed (no render, a size mismatch, ...): a fail",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pass", "error"],
+      "properties": {
+        "pass": {"const": false},
+        "error": {"$ref": "#/$defs/text"}
+      }
+    },
+    "outsideV1": {
+      "type": "object", "additionalProperties": false, "required": ["residual3", "px32_shift1", "pass"],
+      "properties": {"residual3": {"$ref": "#/$defs/count"}, "px32_shift1": {"$ref": "#/$defs/fraction"}, "pass": {"type": "boolean"}}
+    },
+    "outsideV2": {
+      "type": "object", "additionalProperties": false, "required": ["residual5", "px32_shift1", "pass"],
+      "properties": {"residual5": {"$ref": "#/$defs/count"}, "px32_shift1": {"$ref": "#/$defs/fraction"}, "pass": {"type": "boolean"}}
+    },
+    "positions": {
+      "description": "ruling M8-R12: per text line of the input page (pdf_facts.text_line_boxes order), the largest distance in pt of any glyph origin in PowerPoint's round-trip export of our PPTX (S7's export) from the input PDF's, [along, across] the line (null: no glyph of the line was compared); unassigned: glyphs that belong to no line. Numbers only. Absent when S7 gave none for the page (not run, failed as a whole, or another text)",
+      "type": "object", "additionalProperties": false, "required": ["lines", "unassigned"],
+      "properties": {
+        "lines": {"type": "array", "items": {"anyOf": [{"type": "null"}, {"type": "array", "maxItems": 2, "items": {"type": "number", "minimum": 0}}]}},
+        "unassigned": {"$ref": "#/$defs/count"}
+      }
+    },
+    "v1": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["raw_px32", "px32_shift1", "residual3", "pass"],
+          "properties": {
+            "raw_px32": {"$ref": "#/$defs/fraction"},
+            "px32_shift1": {"$ref": "#/$defs/fraction"},
+            "residual3": {"$ref": "#/$defs/count"},
+            "residual3Lines": {"description": "ruling M4-R11: the eroded residual with each text line of the input PDF free to move 1 px (metrics.line_residual); results before M4 Task 7 have none", "$ref": "#/$defs/count"},
+            "lines": {"description": "the text lines V1 judged (M4-R11)", "$ref": "#/$defs/count"},
+            "shiftedLines": {"description": "of them, those that took a shift other than (0, 0)", "$ref": "#/$defs/count"},
+            "passRaw": {"description": "V1's test on the raw residual3 (M4-R11 keeps it recorded)", "type": "boolean"},
+            "noiseExempt": {"description": "ruling M5-R1 (writing down M4-R13): the slide's own noise record (`noise`, v2 of the MuPDF render of the PDF against the PowerPoint render of the source deck) has residual5 over 400 px, the M3-R51 absolute limit; `pass` is then the slide's V2 status and `passMeasured` the measured one. px32_shift1 plays no part. Absent where there is no noise record, and in results from before M5", "type": "boolean"},
+            "noiseFloor": {"description": "the noise record's residual5 that noiseExempt was decided on", "$ref": "#/$defs/count"},
+            "outside": {"description": "ruling M8-R12: V1's own measures over the pixels outside the text-line regions only (residual3 eroded pixels outside; px32_shift1 as a fraction of the whole image), and whether they pass V1's own limits; absent without text lines and in results from before M8-R12", "$ref": "#/$defs/outsideV1"},
+            "passMeasured": {"description": "only on a noise-exempt slide: V1's measured status (residual3Lines and px32_shift1 against V1's limits), which `pass` no longer is", "type": "boolean"},
+            "pass": {"description": "V1's status: on residual3Lines where recorded (M4-R11), else on residual3; the slide's V2 status when noiseExempt", "type": "boolean"}
+          }
+        },
+        {"$ref": "#/$defs/visualError"}
+      ]
+    },
+    "v2": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["raw_px32", "px32_shift1", "residual5", "pass"],
+          "properties": {
+            "raw_px32": {"$ref": "#/$defs/fraction"},
+            "px32_shift1": {"$ref": "#/$defs/fraction"},
+            "residual5": {"$ref": "#/$defs/count"},
+            "pass": {"type": "boolean"},
+            "outside": {"description": "ruling M8-R12: V2's own measures over the pixels outside the text-line regions only, judged by the same limits; absent without text lines and in results from before M8-R12", "$ref": "#/$defs/outsideV2"},
+            "limits": {
+              "description": "M3-R51: the limits the record was held to: the noise floor's numbers plus 50 px and 0.6 % (basis noise), or 400 px and 1 % without a ground truth (basis absolute); absent in results from before M3-R51",
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["basis", "residual5", "px32_shift1"],
+              "properties": {
+                "basis": {"enum": ["noise", "absolute"]},
+                "residual5": {"$ref": "#/$defs/count"},
+                "px32_shift1": {"type": "number", "minimum": 0}
+              }
+            }
+          }
+        },
+        {"$ref": "#/$defs/visualError"}
+      ]
+    },
+    "slide": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["index", "label", "v1", "v2", "noise", "s", "known", "pass", "heatmaps"],
+      "properties": {
+        "index": {"description": "0-based page index of the input PDF (= slide index of the output)", "$ref": "#/$defs/count"},
+        "label": {"description": "the manifest's slide id (public decks with a manifest), else null", "type": ["string", "null"], "pattern": "^[A-Za-z0-9][A-Za-z0-9/._-]{0,80}$"},
+        "v1": {"description": "null: no source PPTX, so no V1 (spec 5.1)", "anyOf": [{"type": "null"}, {"$ref": "#/$defs/v1"}]},
+        "v2": {"$ref": "#/$defs/v2"},
+        "noise": {"description": "M1-R57: v2(MuPDF render of the PDF, PowerPoint render of the source PPTX); never gated; null without a ground truth", "anyOf": [{"type": "null"}, {"$ref": "#/$defs/v2"}]},
+        "s": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["S1", "S2", "S3", "S4", "S5", "S6", "S7"],
+          "properties": {
+            "S1": {"$ref": "#/$defs/gate"}, "S2": {"$ref": "#/$defs/gate"}, "S3": {"$ref": "#/$defs/gate"},
+            "S4": {"$ref": "#/$defs/gate"}, "S5": {"$ref": "#/$defs/gate"}, "S6": {"$ref": "#/$defs/gate"},
+            "S7": {"$ref": "#/$defs/gate"}
+          }
+        },
+        "known": {"type": "array", "uniqueItems": true, "items": {"enum": ["bitmapText", "textAsOutlines", "bitmapEffect", "colourEmoji", "lossyPictureExport"]}},
+        "positions": {"$ref": "#/$defs/positions"},
+        "passReason": {"description": "ruling M8-R12: positions, the slide passes as position-verified (only V1/V2 on text failed, and PowerPoint's round-trip export puts every glyph within 0.25 pt along and 0.1 pt across of the input PDF, and the residual outside the text lines passes V1/V2 on its own); the raw V1/V2 stay as measured. Absent: the slide passed on its gates, or fails", "const": "positions"},
+        "pass": {"description": "the slide's verdict with its font exception applied; null: not measured (M8-R1, an off-bar real deck: S1-S6 only), neither a pass nor a failure", "type": ["boolean", "null"]},
+        "fontException": {"description": "M8: the slide is judged without what its font spoils. mupdf-substitution (M8-R3): the PDF page has a font with no font program, MuPDF's reference render draws a substitute, so V2 is left out (V1 where a pair exists, and S1-S7, judge it). missing-font (spec 5.5): a commercial font the measuring PC cannot have, so S1-S7 alone judge it. font-version (M8-R9): this PC has a font the page embeds in another version (installed or cloud font; nameID 5 or head fontRevision differ), so the source deck re-laid on this PC is not the PDF's layout and V1 is left out (V2 and S1-S7 judge it). Absent: none", "enum": ["mupdf-substitution", "missing-font", "font-version"]},
+        "heatmaps": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {"V1": {"$ref": "#/$defs/relPng"}, "V2": {"$ref": "#/$defs/relPng"}}
+        }
+      }
+    },
+    "deck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "public", "set", "variant", "pages", "exitCodes", "reasons", "convert", "slides"],
+      "properties": {
+        "id": {"$ref": "#/$defs/deckId"},
+        "public": {"type": "boolean"},
+        "set": {"enum": ["public", "atlas", "private", "tier-c", "real"]},
+        "origin": {"description": "real decks (M8): where the PDF came from, from the tier-B manifest; only powerpoint-windows counts toward the bar. A tier-c deck: from the PDF's Producer/Creator; it is never in the bar (bar false)", "enum": ["powerpoint-windows", "powerpoint-mac", "powerpoint-web", "keynote", "google-slides", "libreoffice", "acrobat-pdfmaker", "print-to-pdf", "compressed", "other"]},
+        "bar": {"description": "real decks: true when origin is powerpoint-windows", "type": "boolean"},
+        "variant": {"type": "string", "pattern": "^[a-z0-9]{1,20}$"},
+        "pages": {"$ref": "#/$defs/count"},
+        "error": {"description": "the deck was not measured: its input PDF is unreadable, encrypted or a stale export, or an internal error stopped it (exitCodes.input 3); no slides", "$ref": "#/$defs/text"},
+        "s7": {
+          "description": "M5 Task 1: the deck's own S7 verdict (the round trip of the whole deck); each slide's s.S7 is its own page's. failedPages: the pages whose composition differs, present when that is all that failed; without it a failed deck fails every slide",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "detail"],
+          "properties": {
+            "status": {"enum": ["pass", "fail", "n/a"]},
+            "detail": {"$ref": "#/$defs/text"},
+            "failedPages": {"type": "array", "items": {"type": "integer", "minimum": 1}}
+          }
+        },
+        "exitCodes": {
+          "description": "0 ok, 2 timeout (left running, never stopped), 3 error (reason powerpoint-busy when PowerPoint refused the calls: M1-R74); null: not run (render after a failed conversion; groundTruth without a source PPTX; render and groundTruth with the reason skipped-after-stuck after an earlier PowerPoint timeout in the run: M1-R74). input is reading the input PDF's pages and sizes: 3 with the reason unreadable, encrypted or internal-error (M1-R62), or stale-export when a public PDF is not the export its stamp records of the deck and manifest next to it (M1-R77)",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["input", "convert", "render", "groundTruth"],
+          "properties": {
+            "input": {"$ref": "#/$defs/exitCode"},
+            "convert": {"$ref": "#/$defs/exitCode"},
+            "render": {"$ref": "#/$defs/exitCode"},
+            "groundTruth": {"$ref": "#/$defs/exitCode"}
+          }
+        },
+        "reasons": {
+          "description": "fixed tokens, never a tool's own message",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["input", "convert", "render", "groundTruth"],
+          "properties": {
+            "input": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/token"}]},
+            "convert": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/token"}]},
+            "render": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/token"}]},
+            "groundTruth": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/token"}]}
+          }
+        },
+        "convert": {
+          "description": "the converter's own counts and the wall-clock seconds of the conversion; null when it did not finish",
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["seconds"],
+          "properties": {
+            "seconds": {"type": "number", "minimum": 0},
+            "pages": {"$ref": "#/$defs/count"},
+            "shapes": {"$ref": "#/$defs/count"},
+            "textBoxes": {"$ref": "#/$defs/count"},
+            "pictures": {"$ref": "#/$defs/count"},
+            "freeforms": {"$ref": "#/$defs/count"},
+            "rects": {"$ref": "#/$defs/count"},
+            "lines": {"$ref": "#/$defs/count"},
+            "gradients": {"$ref": "#/$defs/count"},
+            "hotspots": {"$ref": "#/$defs/count"},
+            "fallbacks": {"$ref": "#/$defs/count"}
+          }
+        },
+        "slides": {"type": "array", "items": {"$ref": "#/$defs/slide"}}
+      },
+      "if": {"properties": {"public": {"const": false}}},
+      "then": {
+        "properties": {
+          "id": {"$ref": "#/$defs/privateId"},
+          "set": {"enum": ["private", "tier-c"]},
+          "variant": {"const": "pdf"},
+          "slides": {"items": {"properties": {
+            "label": {"type": "null"},
+            "known": {"maxItems": 0},
+            "heatmaps": {"properties": {"V1": {"$ref": "#/$defs/privatePng"}, "V2": {"$ref": "#/$defs/privatePng"}}}
+          }}}
+        }
+      },
+      "else": {"properties": {"set": {"enum": ["public", "atlas", "real"]}}}
+    },
+    "counts3": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pass", "fail", "na"],
+      "properties": {"pass": {"$ref": "#/$defs/count"}, "fail": {"$ref": "#/$defs/count"}, "na": {"$ref": "#/$defs/count"}}
+    },
+    "stat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["median", "p95", "max"],
+      "properties": {"median": {"type": "number", "minimum": 0}, "p95": {"type": "number", "minimum": 0}, "max": {"type": "number", "minimum": 0}}
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decks", "slides", "pass", "fail", "byGate", "known", "exitCodes", "privateUnreadable", "noiseFloor"],
+      "properties": {
+        "decks": {"$ref": "#/$defs/count"},
+        "slides": {"$ref": "#/$defs/count"},
+        "pass": {"description": "slides that passed; an off-bar slide (pass null) is in notMeasured, in neither pass nor fail", "$ref": "#/$defs/count"},
+        "fail": {"$ref": "#/$defs/count"},
+        "notMeasured": {"description": "M8-R1: slides of real decks off the bar, which got S1-S6 only", "$ref": "#/$defs/count"},
+        "bar": {
+          "description": "M8: the bar-only summary, over the real decks whose origin is powerpoint-windows (absent without one): the slides the stop rule counts, their font exceptions applied",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["decks", "slides", "pass", "fail", "fontException"],
+          "properties": {
+            "decks": {"$ref": "#/$defs/count"}, "slides": {"$ref": "#/$defs/count"},
+            "pass": {"description": "all passes, the position-verified ones (M8-R12) included", "$ref": "#/$defs/count"}, "fail": {"$ref": "#/$defs/count"},
+            "positions": {"description": "of pass, the slides that passed by ruling M8-R12 (passReason positions); pass minus positions passed on their gates", "$ref": "#/$defs/count"},
+            "fontException": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["total", "mupdf-substitution", "missing-font", "pass"],
+              "properties": {"total": {"$ref": "#/$defs/count"}, "mupdf-substitution": {"$ref": "#/$defs/count"},
+                             "missing-font": {"$ref": "#/$defs/count"}, "font-version": {"$ref": "#/$defs/count"},
+                             "pass": {"$ref": "#/$defs/count"}}
+            }
+          }
+        },
+        "tierC": {
+          "description": "M8 tier C: the author's own real decks (set tier-c, private, 12-hex ids), measured fully and reported, never part of the bar (absent without one). origins: decks per origin (Producer/Creator); reportedOnly: always true",
+          "type": "object", "additionalProperties": false,
+          "required": ["decks", "slides", "pass", "fail", "positions", "origins", "reportedOnly"],
+          "properties": {
+            "decks": {"$ref": "#/$defs/count"}, "slides": {"$ref": "#/$defs/count"}, "pass": {"$ref": "#/$defs/count"},
+            "fail": {"$ref": "#/$defs/count"}, "positions": {"$ref": "#/$defs/count"},
+            "origins": {"type": "object", "additionalProperties": {"$ref": "#/$defs/count"}},
+            "reportedOnly": {"const": true}
+          }
+        },
+        "byGate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["V1", "V2", "S1", "S2", "S3", "S4", "S5", "S6", "S7"],
+          "properties": {
+            "V1": {"$ref": "#/$defs/counts3"}, "V2": {"$ref": "#/$defs/counts3"},
+            "S1": {"$ref": "#/$defs/counts3"}, "S2": {"$ref": "#/$defs/counts3"}, "S3": {"$ref": "#/$defs/counts3"},
+            "S4": {"$ref": "#/$defs/counts3"}, "S5": {"$ref": "#/$defs/counts3"}, "S6": {"$ref": "#/$defs/counts3"},
+            "S7": {"$ref": "#/$defs/counts3"}
+          }
+        },
+        "known": {"description": "slides with at least one known-unrecoverable class (M1-R56)", "$ref": "#/$defs/count"},
+        "exitCodes": {
+          "description": "deck x variant records whose step exited non-zero",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["inputFailed", "convertFailed", "renderFailed", "groundTruthFailed"],
+          "properties": {
+            "inputFailed": {"$ref": "#/$defs/count"},
+            "convertFailed": {"$ref": "#/$defs/count"},
+            "renderFailed": {"$ref": "#/$defs/count"},
+            "groundTruthFailed": {"$ref": "#/$defs/count"}
+          }
+        },
+        "privateUnreadable": {"description": "private PDFs (or folders under corpus/private) that could not be read: not measured, never named, no id (M1-R62)", "$ref": "#/$defs/count"},
+        "noiseFloor": {
+          "description": "M1-R57, per deck x variant with a ground truth: median / p95 (linear interpolation) / max of the noise record over its slides, and how many slides exceed, on renderer noise alone, the V2 limits of a slide without a ground truth, 400 px and 1 % (overV2; M3-R51: against itself the noise floor is always within its own limits). Before M3-R51 overV2 counted the spec's 50 px / 0.6 %",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "set", "variant", "slides", "px32_shift1", "residual5", "overV2"],
+            "properties": {
+              "id": {"$ref": "#/$defs/deckId"},
+              "set": {"enum": ["public", "atlas", "private", "tier-c", "real"]},
+              "variant": {"type": "string", "pattern": "^[a-z0-9]{1,20}$"},
+              "slides": {"$ref": "#/$defs/count"},
+              "px32_shift1": {"$ref": "#/$defs/stat"},
+              "residual5": {"$ref": "#/$defs/stat"},
+              "overV2": {"$ref": "#/$defs/count"}
+            },
+            "if": {"properties": {"set": {"const": "private"}}},
+            "then": {"properties": {"id": {"$ref": "#/$defs/privateId"}, "variant": {"const": "pdf"}}}
+          }
+        },
+        "s7DeckWide": {
+          "description": "ruling M5-R3, only in a re-scored file: the deck x variants without a per-page S7 entry, whose slides carry the deck-wide S7 of the source results",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "set", "variant"],
+            "properties": {
+              "id": {"$ref": "#/$defs/deckId"},
+              "set": {"enum": ["public", "atlas", "private", "tier-c", "real"]},
+              "variant": {"type": "string", "pattern": "^[a-z0-9]{1,20}$"}
+            },
+            "if": {"properties": {"set": {"const": "private"}}},
+            "then": {"properties": {"id": {"$ref": "#/$defs/privateId"}, "variant": {"const": "pdf"}}}
+          }
+        },
+        "v1NoiseExempt": {
+          "description": "M5 Task 1: per deck x variant, the 1-based slides whose V1 is judged by their V2 because their noise record's residual5 is over 400 px (ruling M5-R1; v1.noiseExempt)",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "set", "variant", "slides"],
+            "properties": {
+              "id": {"$ref": "#/$defs/deckId"},
+              "set": {"enum": ["public", "atlas", "private", "tier-c", "real"]},
+              "variant": {"type": "string", "pattern": "^[a-z0-9]{1,20}$"},
+              "slides": {"type": "array", "items": {"type": "integer", "minimum": 1}}
+            },
+            "if": {"properties": {"set": {"const": "private"}}},
+            "then": {"properties": {"id": {"$ref": "#/$defs/privateId"}, "variant": {"const": "pdf"}}}
+          }
+        },
+        "averages": {
+          "description": "spec 5: averages are reported, never gated. The mean raw_px32 and px32_shift1 of V1 and V2 over the slides whose gate was computed (null and error records left out), over the run and per deck x variant; null where no slide has one",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["overall", "decks"],
+          "properties": {
+            "overall": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["v1", "v2"],
+              "properties": {"v1": {"$ref": "#/$defs/mean"}, "v2": {"$ref": "#/$defs/mean"}}
+            },
+            "decks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["id", "set", "variant", "v1", "v2"],
+                "properties": {
+                  "id": {"$ref": "#/$defs/deckId"},
+                  "set": {"enum": ["public", "atlas", "private", "tier-c", "real"]},
+                  "variant": {"type": "string", "pattern": "^[a-z0-9]{1,20}$"},
+                  "v1": {"$ref": "#/$defs/mean"},
+                  "v2": {"$ref": "#/$defs/mean"}
+                },
+                "if": {"properties": {"set": {"const": "private"}}},
+                "then": {"properties": {"id": {"$ref": "#/$defs/privateId"}, "variant": {"const": "pdf"}}}
+              }
+            }
+          }
+        },
+        "powerpoint": {
+          "description": "M1-R74: stuckAt is the PowerPoint step (render, groundTruth or S7 of one deck x variant) that first timed out in the run, null if none; every later PowerPoint step was not attempted and is counted in skippedAfterStuck (reason skipped-after-stuck; S7 n/a); busy counts the PowerPoint steps PowerPoint refused because it was busy (reason powerpoint-busy). Both make the run exit 1",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["stuckAt", "skippedAfterStuck", "busy"],
+          "properties": {
+            "stuckAt": {"anyOf": [{"type": "null"}, {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "variant", "step"],
+              "properties": {
+                "id": {"$ref": "#/$defs/deckId"},
+                "variant": {"type": "string", "pattern": "^[a-z0-9]{1,20}$"},
+                "step": {"enum": ["render", "groundTruth", "S7"]}
+              }
+            }]},
+            "skippedAfterStuck": {"$ref": "#/$defs/count"},
+            "busy": {"$ref": "#/$defs/count"}
+          }
+        }
+      }
+    },
+    "mean": {
+      "anyOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["slides", "raw_px32", "px32_shift1"],
+          "properties": {
+            "slides": {"$ref": "#/$defs/count"},
+            "raw_px32": {"$ref": "#/$defs/fraction"},
+            "px32_shift1": {"$ref": "#/$defs/fraction"}
+          }
+        }
+      ]
+    }
+  }
+}

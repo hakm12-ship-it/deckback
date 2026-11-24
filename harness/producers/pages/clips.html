@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>skia: clips</title>
+<style>
+@page { size: 1280px 720px; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; background: #fff }
+body { padding: 12px 18px; font: 13px/1.25 "Segoe UI", "Malgun Gothic", sans-serif; color: #222 }
+h1 { margin: 0 0 6px; font-size: 20px }
+h2 { margin: 8px 0 6px; font-size: 13px; font-weight: 600; color: #555 }
+.row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px }
+.row > div { position: relative; height: 150px }
+.cap { position: absolute; left: 4px; bottom: 4px; padding: 1px 5px; border-radius: 3px; background: #000c; color: #fff; font-size: 11px; z-index: 5 }
+.fill { background: linear-gradient(135deg, #f72585, #7209b7 50%, #4361ee) }
+
+/* clip-path */
+.cp1 { clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%) }
+.cp2 { clip-path: circle(62px at 50% 50%) }
+.cp3 { clip-path: ellipse(48% 30% at 50% 50%) }
+.cp4 { clip-path: inset(10px 18px 30px 6px round 24px) }
+.cp5 { clip-path: path("M 10 70 C 10 10, 100 0, 130 40 S 200 130, 120 140 S 10 140, 10 70 Z") }
+.cp6 { clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); border: 6px solid #ffb703; box-shadow: 0 0 0 4px #222, 0 8px 24px #0008; background: linear-gradient(#264653, #2a9d8f); color: #fff; font: 700 22px "Malgun Gothic", sans-serif; padding: 18px 10px }
+
+/* mask-image */
+.mk { background: linear-gradient(90deg, #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93) }
+.mk1 { -webkit-mask-image: linear-gradient(to bottom, #000, transparent); mask-image: linear-gradient(to bottom, #000, transparent) }
+.mk2 { -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 30%, transparent 70%); mask-image: radial-gradient(circle at 50% 50%, #000 30%, transparent 70%) }
+.mk3 { -webkit-mask-image: radial-gradient(circle, #000 40%, transparent 42%); mask-image: radial-gradient(circle, #000 40%, transparent 42%);
+       -webkit-mask-size: 24px 24px; mask-size: 24px 24px }
+.mk4 { background: #264653; color: #fff; font: 600 17px/1.3 "Malgun Gothic", "Segoe UI", sans-serif; padding: 10px;
+       -webkit-mask-image: linear-gradient(90deg, #000 40%, transparent); mask-image: linear-gradient(90deg, #000 40%, transparent) }
+.mk5 { -webkit-mask-image: conic-gradient(#000 0 25%, transparent 0 50%, #000 0 75%, transparent 0); mask-image: conic-gradient(#000 0 25%, transparent 0 50%, #000 0 75%, transparent 0) }
+.mk6 { -webkit-mask-image: linear-gradient(#000, #000), linear-gradient(90deg, transparent, #000);
+       mask-image: linear-gradient(#000, #000), linear-gradient(90deg, transparent, #000);
+       -webkit-mask-composite: source-in; mask-composite: intersect;
+       -webkit-mask-size: 100% 60%, 100% 100%; mask-size: 100% 60%, 100% 100%; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat }
+
+/* rounded overflow: hidden */
+.ov1 { border-radius: 40px; overflow: hidden; background: #e9ecef }
+.ov1::before { content: ""; position: absolute; left: -30px; top: -30px; width: 260px; height: 130px; background: linear-gradient(135deg, #ff9f1c, #e71d36) }
+.ov2 { border-radius: 60px; overflow: hidden; background: #264653; padding: 20px }
+.ov2 > div { position: relative; height: 100%; border-radius: 30px; overflow: hidden; background: #e9c46a }
+.ov2 > div::before { content: ""; position: absolute; left: 20px; top: -40px; width: 160px; height: 160px; background: #e76f51; transform: rotate(22deg) }
+.ov3 { border-radius: 50%; overflow: hidden; background: repeating-linear-gradient(0deg, #2a9d8f 0 14px, #e9f5db 14px 28px) }
+.ov3::before { content: ""; position: absolute; inset: 40px -40px auto; height: 40px; background: #1d3557 }
+.ov4 { overflow: hidden; border: 3px solid #1d3557; border-radius: 12px; background: #f1faee; padding: 8px; font: 15px/1.35 "Malgun Gothic", "Segoe UI", sans-serif; white-space: nowrap }
+.ov5 { border-radius: 24px; overflow: hidden; border: 6px solid #e63946; box-shadow: 0 10px 20px #0005 }
+.ov5::before { content: ""; position: absolute; inset: -20px; background: conic-gradient(#f72585, #ffd60a, #06d6a0, #4361ee, #f72585) }
+.ov6 { border-radius: 90px / 36px; overflow: hidden; background: #cfd8dc }
+.ov6::before { content: ""; position: absolute; left: -10px; right: -10px; top: 30px; height: 50px; background: #4361ee; transform: skewX(-20deg) }
+</style>
+</head>
+<body>
+<h1>Clips</h1>
+
+<h2>clip-path</h2>
+<div class="row">
+  <div class="fill cp1"><span class="cap">polygon</span></div>
+  <div class="fill cp2"><span class="cap">circle</span></div>
+  <div class="fill cp3"><span class="cap">ellipse</span></div>
+  <div class="fill cp4"><span class="cap">inset round</span></div>
+  <div class="fill cp5"><span class="cap">path()</span></div>
+  <div class="cp6">클립 안의 글자 Clipped text</div>
+</div>
+
+<h2>mask-image</h2>
+<div class="row">
+  <div class="mk mk1"><span class="cap">linear fade</span></div>
+  <div class="mk mk2"><span class="cap">radial</span></div>
+  <div class="mk mk3"><span class="cap">dots, mask-size</span></div>
+  <div class="mk4">마스크가 걸린 글자가 오른쪽으로 사라진다. Masked text fades out to the right.</div>
+  <div class="mk mk5"><span class="cap">conic</span></div>
+  <div class="mk mk6"><span class="cap">two layers, intersect</span></div>
+</div>
+
+<h2>rounded overflow: hidden</h2>
+<div class="row">
+  <div class="ov1"><span class="cap">radius 40</span></div>
+  <div class="ov2"><div></div><span class="cap">nested 60 / 30</span></div>
+  <div class="ov3"><span class="cap">circle</span></div>
+  <div class="ov4">긴 줄은 상자 밖에서 잘린다. A long line is cut at the border of the box and does not wrap.</div>
+  <div class="ov5"><span class="cap">border + shadow</span></div>
+  <div class="ov6"><span class="cap">elliptic radius</span></div>
+</div>
+</body>
+</html>

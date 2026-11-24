@@ -1,0 +1,21 @@
+{
+  "beginMarkedContent": 1,
+  "beginMarkedContentProps": 26,
+  "beginText": 41,
+  "constructPath": 52,
+  "dependency": 4,
+  "endMarkedContent": 27,
+  "endText": 41,
+  "eoClip": 42,
+  "restore": 43,
+  "save": 43,
+  "setCharSpacing": 5,
+  "setDash": 1,
+  "setFillRGBColor": 48,
+  "setFont": 41,
+  "setGState": 2,
+  "setLineWidth": 3,
+  "setStrokeRGBColor": 44,
+  "setTextMatrix": 41,
+  "showText": 41
+}

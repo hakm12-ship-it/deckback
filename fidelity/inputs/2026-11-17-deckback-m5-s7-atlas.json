@@ -1,0 +1,43 @@
+{
+ "date": "2026-11-17",
+ "decks": {
+  "atlas": {
+   "std": {
+    "status": "fail",
+    "detail": "PowerPoint opened and exported the deck, but the composition differs: page 77: text differs (98 vs 20 characters, whitespace removed); page 78: text differs (85 vs 18 characters, whitespace removed); page 87: paints image 1 vs 2; page 87: text differs (197 vs 196 characters, whitespace removed); page 88: paints image 0 vs 4; ... (9 more); checked: paint counts per kind, text (whitespace removed), baselines 0.5 pt across the writing direction, path bbox within 0.5 pt (bbox proxy for Hausdorff (M1))",
+    "pages": {
+     "77": "text differs (98 vs 20 characters, whitespace removed)",
+     "78": "text differs (85 vs 18 characters, whitespace removed)",
+     "87": "paints image 1 vs 2; text differs (197 vs 196 characters, whitespace removed)",
+     "88": "paints image 0 vs 4; text differs (263 vs 259 characters, whitespace removed)",
+     "102": "text differs (61 vs 33 characters, whitespace removed)",
+     "105": "text differs (162 vs 107 characters, whitespace removed)",
+     "106": "text differs (171 vs 105 characters, whitespace removed)",
+     "107": "text differs (170 vs 104 characters, whitespace removed)",
+     "108": "text differs (157 vs 91 characters, whitespace removed)",
+     "109": "text differs (170 vs 104 characters, whitespace removed)",
+     "110": "text differs (183 vs 117 characters, whitespace removed)",
+     "111": "text differs (144 vs 89 characters, whitespace removed)"
+    }
+   },
+   "notags": {
+    "status": "fail",
+    "detail": "PowerPoint opened and exported the deck, but the composition differs: page 77: text differs (98 vs 20 characters, whitespace removed); page 78: text differs (85 vs 18 characters, whitespace removed); page 87: paints image 1 vs 2; page 87: text differs (197 vs 196 characters, whitespace removed); page 88: paints image 0 vs 4; ... (9 more); checked: paint counts per kind, text (whitespace removed), baselines 0.5 pt across the writing direction, path bbox within 0.5 pt (bbox proxy for Hausdorff (M1))",
+    "pages": {
+     "77": "text differs (98 vs 20 characters, whitespace removed)",
+     "78": "text differs (85 vs 18 characters, whitespace removed)",
+     "87": "paints image 1 vs 2; text differs (197 vs 196 characters, whitespace removed)",
+     "88": "paints image 0 vs 4; text differs (263 vs 259 characters, whitespace removed)",
+     "102": "text differs (61 vs 33 characters, whitespace removed)",
+     "105": "text differs (162 vs 107 characters, whitespace removed)",
+     "106": "text differs (171 vs 105 characters, whitespace removed)",
+     "107": "text differs (170 vs 104 characters, whitespace removed)",
+     "108": "text differs (157 vs 91 characters, whitespace removed)",
+     "109": "text differs (170 vs 104 characters, whitespace removed)",
+     "110": "text differs (183 vs 117 characters, whitespace removed)",
+     "111": "text differs (144 vs 89 characters, whitespace removed)"
+    }
+   }
+  }
+ }
+}

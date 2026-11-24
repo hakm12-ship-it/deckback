@@ -1,0 +1,40 @@
+{
+  "name": "deckback-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakm12-ship-it/deckback.git"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "test": "vitest run --project unit",
+    "test:local": "vitest run --project local --reporter=verbose",
+    "test:corpus": "vitest run --project corpus",
+    "oracle:sweep": "vitest run --mode sweep --project sweep",
+    "producers:skia": "node harness/producers/make_skia.mjs",
+    "test:scripts": "node --test \"scripts/*.test.mjs\"",
+    "fidelity": "harness\\.venv\\Scripts\\python -m harness.fidelity.run --converter proto",
+    "build:cli": "vite build --config packages/cli/vite.config.ts",
+    "fidelity:deckback": "npm run build:cli && harness\\.venv\\Scripts\\python -m harness.fidelity.run --converter deckback",
+    "typecheck": "tsc -b",
+    "e2e": "npm run e2e --workspace apps/web",
+    "prepare": "git config core.hooksPath .githooks || exit 0",
+    "m6:peak-rss": "node scripts/m6-peak-rss.mjs",
+    "deploy:preview": "npm run build --workspace apps/web && wrangler pages deploy apps/web/dist --branch preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "ajv": "8.20.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.164.0"
+  }
+}

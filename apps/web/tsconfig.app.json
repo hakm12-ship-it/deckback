@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "emitDeclarationOnly": true,
+    "outDir": "node_modules/.tmp/tsc/app"
+  },
+  "include": ["src/main.ts", "src/app.ts", "src/i18n.ts", "src/report-panel.ts", "src/fonts-check.ts", "src/protocol.ts", "src/offline.ts", "src/make-worker.ts", "src/test-page.ts"],
+  "references": [{ "path": "../../packages/core/tsconfig.src.json" }]
+}

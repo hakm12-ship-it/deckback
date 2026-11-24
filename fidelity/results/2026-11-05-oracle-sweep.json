@@ -1,0 +1,8069 @@
+{
+ "schema": "deckback.oracle-sweep/1",
+ "date": "2026-11-05",
+ "tolerancePt": 0.05,
+ "engines": {
+  "pdfjs": "6.5.438",
+  "pymupdf": "2.1",
+  "mupdf": "1.28.6"
+ },
+ "pdfs": [
+  {
+   "file": "atlas_hidden.pdf",
+   "variant": "hidden",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 4,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 5,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 6,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 7,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 8,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 9,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 10,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 11,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 12,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 13,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 14,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 15,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 16,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 17,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 18,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 19,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 20,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 21,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 22,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 23,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 24,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 25,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 26,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 27,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 28,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 29,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 30,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 31,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 32,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 33,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 34,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 35,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 36,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 37,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 38,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 39,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 40,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 41,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 42,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 43,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 44,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 45,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 46,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 47,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 48,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 49,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 50,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 51,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 52,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 53,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 54,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 55,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 56,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 57,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 58,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 59,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 60,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 61,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 62,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 63,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 64,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 65,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 66,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 67,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 68,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 69,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 70,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 71,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 72,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 73,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 74,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 75,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 76,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 77,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 78,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 79,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 80,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 81,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 82,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 83,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 84,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 85,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 86,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 87,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 88,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 89,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 90,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 91,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 92,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 93,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 94,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 95,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 96,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 97,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 98,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 99,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 100,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 101,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 102,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 103,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 104,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 105,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 106,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 107,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 108,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 109,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 110,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 111,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 112,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 113,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 114,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 115,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 116,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 117,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 118,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 119,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 120,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 121,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 122,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 123,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 124,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 125,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 126,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 127,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 128,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 129,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 130,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 131,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 132,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 133,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 134,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 135,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 136,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 137,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 138,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 139,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 140,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 141,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 142,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 143,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 144,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 145,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 146,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 147,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 148,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 149,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 150,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 151,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 152,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 153,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 154,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 155,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 156,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 157,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 158,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 159,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 160,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "atlas_min.pdf",
+   "variant": "min",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 4,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 5,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 6,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 7,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 8,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 9,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 10,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 11,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 12,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 13,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 14,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 15,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 16,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 17,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 18,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 19,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 20,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 21,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 22,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 23,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 24,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 25,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 26,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 27,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 28,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 29,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 30,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 31,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 32,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 33,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 34,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 35,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 36,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 37,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 38,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 39,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 40,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 41,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 42,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 43,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 44,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 45,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 46,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 47,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 48,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 49,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 50,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 51,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 52,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 53,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 54,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 55,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 56,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 57,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 58,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 59,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 60,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 61,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 62,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 63,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 64,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 65,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 66,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 67,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 68,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 69,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 70,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 71,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 72,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 73,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 74,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 75,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 76,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 77,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 78,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 79,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 80,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 81,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 82,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 83,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 84,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 85,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 86,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 87,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 88,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 89,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 90,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 91,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 92,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 93,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 94,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 95,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 96,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 97,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 98,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 99,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 100,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 101,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 102,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 103,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 104,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 105,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 106,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 107,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 108,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 109,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 110,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 111,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 112,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 113,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 114,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 115,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 116,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 117,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 118,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 119,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 120,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 121,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 122,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 123,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 124,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 125,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 126,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 127,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 128,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 129,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 130,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 131,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 132,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 133,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 134,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 135,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 136,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 137,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 138,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 139,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 140,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 141,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 142,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 143,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 144,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 145,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 146,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 147,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 148,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 149,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 150,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 151,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 152,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 153,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 154,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 155,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 156,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 157,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 158,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "atlas_msprint.pdf",
+   "variant": "msprint",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 4,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 5,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 6,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 7,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 8,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 9,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 10,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 11,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 12,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 13,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 14,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 15,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 16,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 17,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 18,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 19,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 20,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 21,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 22,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 23,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 24,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 25,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 26,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 27,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 28,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 29,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 30,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 31,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 32,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 33,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 34,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 35,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 36,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 37,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 38,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 39,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 40,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 41,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 42,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 43,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 44,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 45,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 46,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 47,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 48,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 49,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 50,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 51,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 52,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 53,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 54,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 55,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 56,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 57,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 58,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 59,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 60,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 61,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 62,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 63,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 64,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 65,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 66,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 67,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 68,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 69,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 70,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 71,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 72,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 73,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 74,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 75,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 76,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 77,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 78,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 79,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 80,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 81,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 82,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 83,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 84,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 85,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 86,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 87,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 88,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 89,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 90,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 91,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 92,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 93,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 94,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 95,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 96,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 97,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 98,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 99,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 100,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 101,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 102,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 103,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 104,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 105,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 106,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 107,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 108,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 109,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 110,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 111,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 112,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 113,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 114,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 115,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 116,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 117,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 118,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 119,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 120,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 121,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 122,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 123,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 124,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 125,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 126,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 127,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 128,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 129,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 130,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 131,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 132,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 133,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 134,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 135,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 136,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 137,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 138,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 139,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 140,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 141,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 142,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 143,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 144,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 145,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 146,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 147,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 148,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 149,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 150,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 151,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 152,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 153,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 154,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 155,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 156,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 157,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 158,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "atlas_notags.pdf",
+   "variant": "notags",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 4,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 5,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 6,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 7,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 8,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 9,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 10,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 11,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 12,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 13,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 14,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 15,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 16,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 17,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 18,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 19,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 20,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 21,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 22,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 23,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 24,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 25,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 26,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 27,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 28,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 29,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 30,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 31,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 32,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 33,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 34,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 35,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 36,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 37,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 38,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 39,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 40,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 41,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 42,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 43,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 44,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 45,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 46,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 47,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 48,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 49,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 50,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 51,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 52,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 53,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 54,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 55,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 56,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 57,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 58,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 59,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 60,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 61,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 62,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 63,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 64,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 65,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 66,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 67,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 68,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 69,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 70,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 71,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 72,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 73,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 74,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 75,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 76,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 77,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 78,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 79,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 80,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 81,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 82,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 83,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 84,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 85,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 86,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 87,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 88,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 89,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 90,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 91,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 92,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 93,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 94,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 95,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 96,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 97,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 98,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 99,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 100,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 101,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 102,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 103,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 104,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 105,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 106,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 107,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 108,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 109,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 110,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 111,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 112,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 113,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 114,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 115,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 116,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 117,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 118,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 119,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 120,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 121,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 122,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 123,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 124,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 125,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 126,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 127,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 128,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 129,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 130,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 131,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 132,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 133,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 134,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 135,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 136,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 137,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 138,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 139,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 140,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 141,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 142,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 143,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 144,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 145,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 146,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 147,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 148,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 149,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 150,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 151,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 152,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 153,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 154,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 155,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 156,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 157,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 158,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "atlas_pdfa.pdf",
+   "variant": "pdfa",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 4,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 5,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 6,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 7,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 8,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 9,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 10,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 11,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 12,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 13,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 14,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 15,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 16,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 17,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 18,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 19,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 20,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 21,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 22,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 23,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 24,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 25,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 26,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 27,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 28,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 29,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 30,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 31,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 32,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 33,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 34,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 35,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 36,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 37,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 38,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 39,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 40,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 41,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 42,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 43,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 44,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 45,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 46,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 47,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 48,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 49,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 50,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 51,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 52,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 53,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 54,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 55,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 56,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 57,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 58,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 59,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 60,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 61,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 62,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 63,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 64,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 65,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 66,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 67,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 68,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 69,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 70,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 71,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 72,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 73,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 74,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 75,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 76,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 77,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 78,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 79,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 80,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 81,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 82,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 83,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 84,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 85,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 86,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 87,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 88,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 89,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 90,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 91,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 92,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 93,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 94,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 95,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 96,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 97,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 98,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 99,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 100,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 101,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 102,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 103,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 104,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 105,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 106,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 107,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 108,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 109,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 110,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 111,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 112,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 113,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 114,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 115,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 116,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 117,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 118,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 119,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 120,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 121,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 122,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 123,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 124,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 125,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 126,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 127,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 128,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 129,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 130,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 131,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 132,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 133,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 134,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 135,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 136,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 137,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 138,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 139,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 140,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 141,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 142,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 143,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 144,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 145,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 146,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 147,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 148,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 149,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 150,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 151,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 152,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 153,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 154,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 155,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 156,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 157,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 158,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "atlas_std.pdf",
+   "variant": "std",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 4,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 5,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 6,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 7,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 8,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 9,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 10,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 11,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 12,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 13,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 14,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 15,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 16,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 17,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 18,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 19,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 20,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 21,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 22,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 23,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 24,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 25,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 26,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 27,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 28,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 29,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 30,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 31,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 32,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 33,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 34,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 35,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 36,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 37,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 38,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 39,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 40,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 41,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 42,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 43,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 44,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 45,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 46,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 47,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 48,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 49,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 50,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 51,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 52,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 53,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 54,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 55,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 56,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 57,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 58,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 59,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 60,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 61,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 62,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 63,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 64,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 65,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 66,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 67,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 68,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 69,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 70,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 71,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 72,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 73,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 74,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 75,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 76,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 77,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 78,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 79,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 80,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 81,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 82,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 83,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 84,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 85,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 86,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 87,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 88,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 89,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 90,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 91,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 92,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 93,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 94,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 95,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 96,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 97,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 98,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 99,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 100,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 101,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 102,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 103,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 104,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 105,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 106,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 107,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 108,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 109,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 110,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 111,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 112,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 113,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 114,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 115,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 116,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 117,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 118,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 119,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 120,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 121,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 122,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 123,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 124,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 125,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 126,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 127,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 128,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 129,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 130,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 131,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 132,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 133,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 134,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 135,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 136,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 137,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 138,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 139,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 140,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 141,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 142,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 143,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 144,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 145,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 146,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 147,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 148,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 149,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 150,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 151,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 152,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 153,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 154,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 155,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 156,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 157,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 158,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "probe_notags.pdf",
+   "variant": "notags",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "probe_std.pdf",
+   "variant": "std",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-43_notags.pdf",
+   "variant": "notags",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-43_std.pdf",
+   "variant": "std",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-a4l_notags.pdf",
+   "variant": "notags",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-a4l_std.pdf",
+   "variant": "std",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-a4p_notags.pdf",
+   "variant": "notags",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-a4p_std.pdf",
+   "variant": "std",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-custom_notags.pdf",
+   "variant": "notags",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  },
+  {
+   "file": "sizes-custom_std.pdf",
+   "variant": "std",
+   "pages": [
+    {
+     "index": 0,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 1,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 2,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    },
+    {
+     "index": 3,
+     "ok": true,
+     "diffCount": 0,
+     "approxPaints": 0,
+     "diffs": [],
+     "unsupported": null
+    }
+   ]
+  }
+ ],
+ "summary": {
+  "pages": 994,
+  "ok": 994,
+  "unsupported": 0,
+  "diff": 0,
+  "approxPaints": 0,
+  "unsupportedOps": {},
+  "diffKinds": {}
+ }
+}
